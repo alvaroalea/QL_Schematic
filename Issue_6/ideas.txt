@@ -1,0 +1,22 @@
+Sinclair QL2
+
+MUST:
+- Incorporar mejoras de QL Alemanes/Americanos
+- remplazar mc1488 y mc1489 por max232
+- remplazar conectores por DB9
+- remplazar RAM por 4x (64x8) chips (Spectrum +2A)
+- remplazar ram por ssf39a40 (512Kb)
+- eliminar salida VC y RGB y poner VGA (rp2040)
+- Separar alimentacion y modulos de microdrives en PCB diferentes.
+- remplazar 68008 por 68020 a 16Mhz.
+- Añadir 2x 512Kb sram (acceso 16 bits)
+
+BUENA IDEA:
+- Añadir interfaz de floppy
+- Añadir RTC
+- Añadir rp2040 para teclado USB
+- Añadir mouse Qimsi (¿mismo rp2040 que teclado?)
+
+FRIKI:
+- Añadir Chiptune
+- Añadir qubide

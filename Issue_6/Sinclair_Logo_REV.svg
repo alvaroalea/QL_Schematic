@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40mm"
+   height="10mm"
+   viewBox="0 0 40 10"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="Sinclair_Logo_REV.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="4.0000002"
+     inkscape:cx="73.999996"
+     inkscape:cy="41.499998"
+     inkscape:window-width="1920"
+     inkscape:window-height="1007"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;stroke-width:0.999991"
+       d="m 14.892468,9.6078204 v -2.47163 0 h -4.000899 v 0.4846 h 3.374399 v 1.45538 h -3.374399 l 2e-5,0.53163 z m 9.629168,-0.53165 h -3.252694 v -0.46752 l 2.220085,0.0195 1.032609,-0.0195 v -1.47246 0 h -3.987405 v 0 0.4846 h 3.277319 v 0.46198 h -3.277319 v 0 1.52505 h 3.987405 z m -4.307803,-1.93998 h -0.623327 v 2.47163 h 0.623327 z m -0.890649,2.47163 v -2.47163 h -4.084338 v 2.47163 h 0.631057 v -1.98703 h 2.734578 v 1.98703 z m -8.68579,-3.18456 h -0.63982 v 3.18456 h 0.63982 z m -0.999172,3.18456 0.0054,-0.87378 -0.0054,-0.65127 H 6.325176 v -0.46198 h 3.313046 v -0.4846 h -3.99617 v 2.47163 h 0.683124 v -0.99916 h 2.559285 v 0.46751 H 6.325176 v 0.53165 z m -4.356042,0 v -2.47163 H 4.659888 v 2.47163 z M 4.353124,7.1361904 H 0.42831904 v 0.4846 H 3.722068 v 1.98703 h 0.631056 z m 15.860709,-0.71293 h -0.623327 v 0.44123 h 0.623327 z m -14.931653,0 H 4.659888 v 0.44123 H 5.28218 Z"
+       id="path1138"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  </g>
+</svg>
