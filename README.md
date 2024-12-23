@@ -10,8 +10,8 @@ https://ohwr.org/cern_ohl_s_v2.txt
 ## Folder: Issue_6
 This folder contain the schematic of the original Issue 6 of sinclair QL, from pictures found on internet.
 
-![My image](original/Issue_6/Issue_6_C.png)
-![My image](original/Issue_6/Issue_6_S.png)
+![My image](Issue_6/Issue_6_C.png)
+![My image](Issue_6/Issue_6_S.png)
 
 ### STATUS
 - Schematic - 100% draw, ERC Passed
@@ -50,7 +50,7 @@ Future schematic & PCB of a improved Sinclair QL with moderm components.
 - replace serial conector by  DB9
 - replace RAM by 4x (64x8) chips (Spectrum +2A)
 
-### GOOD IDEAS:
+### GOOD IDEAS
 - replace ROM by ssf39a40 (512Kb)
 - remove Composite out and RGB and replace by VGA (rp2040)
 - split microdrive and power supply circuits
@@ -61,7 +61,7 @@ Future schematic & PCB of a improved Sinclair QL with moderm components.
 - Add rp2040 for USB keyboard
 - Add Qimsi mouse (using same rp2040 of keyboard?)
 
-### FRIKI:
+### FRIKI
 - Add 2x 1024Kb sram (16bits access with 68020)
 - Add a PSG
 - Add qubide interface
