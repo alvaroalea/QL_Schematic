@@ -14970,6 +14970,178 @@
 				)
 			)
 		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -21967,6 +22139,12 @@
 		(uuid "8ab98646-0fe3-44ff-bf78-023a4ccb0ac8")
 	)
 	(junction
+		(at 115.57 326.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8af5c200-5b0b-4fe5-9909-8fdcd8ef33e0")
+	)
+	(junction
 		(at 299.72 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -22001,6 +22179,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90a6fcb5-c8e9-4a73-87fc-4432dd861e9d")
+	)
+	(junction
+		(at 104.14 321.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90b6af34-e931-43bc-95b6-81e319e8f04f")
 	)
 	(junction
 		(at 1085.85 133.35)
@@ -22213,6 +22397,12 @@
 		(uuid "b0f4f192-5983-4039-a570-4d1e03153e60")
 	)
 	(junction
+		(at 104.14 312.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b14ac2a2-ce98-47f1-af55-8b641160f50f")
+	)
+	(junction
 		(at 121.92 387.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -22295,6 +22485,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc3f340b-7a18-421f-8ff4-8792546fac6b")
+	)
+	(junction
+		(at 104.14 336.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc882fff-d788-4066-8b31-09c873a03b3b")
 	)
 	(junction
 		(at 87.63 557.53)
@@ -27170,6 +27366,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 335.28) (xy 118.11 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053c5ccc-b597-4833-9414-588374a4f71e")
+	)
+	(wire
+		(pts
 			(xy 541.02 355.6) (xy 546.1 355.6)
 		)
 		(stroke
@@ -30970,6 +31176,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 312.42) (xy 101.6 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36cd0084-c94a-40a1-9515-27ae0453bad9")
+	)
+	(wire
+		(pts
 			(xy 370.84 318.77) (xy 373.38 318.77)
 		)
 		(stroke
@@ -31177,6 +31393,16 @@
 			(type default)
 		)
 		(uuid "38e51522-265a-455c-a22f-1656ef2994d8")
+	)
+	(wire
+		(pts
+			(xy 110.49 330.2) (xy 110.49 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f3e46c-2f06-4fe0-952b-883462063b92")
 	)
 	(wire
 		(pts
@@ -34130,6 +34356,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 336.55) (xy 104.14 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ceb3a54-4679-406b-8530-966e67073c6f")
+	)
+	(wire
+		(pts
 			(xy 646.43 514.35) (xy 646.43 515.62)
 		)
 		(stroke
@@ -34327,6 +34563,16 @@
 			(type default)
 		)
 		(uuid "5fbbc80e-ef1c-4124-8233-21fd141fa15f")
+	)
+	(wire
+		(pts
+			(xy 110.49 340.36) (xy 106.68 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd06cfe-5836-4910-97f1-8966f925098c")
 	)
 	(wire
 		(pts
@@ -35297,6 +35543,16 @@
 			(type default)
 		)
 		(uuid "69999685-a6b6-4ac2-85ec-0f50ac656638")
+	)
+	(wire
+		(pts
+			(xy 110.49 321.31) (xy 104.14 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b94f39-c7a1-44d2-80cf-611bc22a51dd")
 	)
 	(wire
 		(pts
@@ -41321,6 +41577,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 326.39) (xy 115.57 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b13bea-3cd2-4223-8e64-f823cad0175e")
+	)
+	(wire
+		(pts
 			(xy 504.19 444.5) (xy 506.73 444.5)
 		)
 		(stroke
@@ -41658,6 +41924,16 @@
 			(type default)
 		)
 		(uuid "b6abd42b-887d-4e36-9f42-68a459b39380")
+	)
+	(wire
+		(pts
+			(xy 101.6 321.31) (xy 104.14 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6bbafda-6f7c-4455-aad9-13c0383d0a0f")
 	)
 	(wire
 		(pts
@@ -42398,6 +42674,16 @@
 			(type default)
 		)
 		(uuid "be450821-f528-4aea-b1f7-3ec468187774")
+	)
+	(wire
+		(pts
+			(xy 101.6 312.42) (xy 101.6 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be61860d-8b9d-4e81-9994-f2dc562729ba")
 	)
 	(bus
 		(pts
@@ -44110,6 +44396,16 @@
 			(type dash)
 		)
 		(uuid "d4920ab8-5622-4f23-982f-87c8efe4b81f")
+	)
+	(wire
+		(pts
+			(xy 106.68 340.36) (xy 106.68 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a776ff-20d0-4d57-9534-7d798fad0b1e")
 	)
 	(wire
 		(pts
@@ -47807,6 +48103,16 @@
 			(justify left)
 		)
 		(uuid "cf5e6e64-e9be-4460-8ea1-45e505fa08c4")
+	)
+	(text "NOTE:\nR104 on air betwen \ntransistor leg and PCB footprint"
+		(exclude_from_sim no)
+		(at 35.306 313.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d22e4832-c88c-4c48-828c-b3a5e7e659d5")
 	)
 	(text "NOTE:\nD23 not show on PCB, \nprobably to be solder aereal, \njumper in schematic is for ERC"
 		(exclude_from_sim no)
@@ -55826,46 +56132,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "a76411d7-c9db-471d-9495-2f9e49042293")
+			(uuid "a76411d7-c9db-471d-9495-2f9e49042294")
 		)
 		(pin "5"
-			(uuid "69070831-ca8f-40c3-b7ca-34612024a77d")
+			(uuid "69070831-ca8f-40c3-b7ca-34612024a77e")
 		)
 		(pin "14"
-			(uuid "922fd995-f645-4e3a-a0ac-8b3dcc9ce4dc")
+			(uuid "922fd995-f645-4e3a-a0ac-8b3dcc9ce4dd")
 		)
 		(pin "7"
-			(uuid "db38030e-2ba8-4860-91e1-59979ddd4200")
+			(uuid "db38030e-2ba8-4860-91e1-59979ddd4201")
 		)
 		(pin "1"
-			(uuid "5638afcc-251b-4986-b8a3-4ea17f44dd46")
+			(uuid "5638afcc-251b-4986-b8a3-4ea17f44dd47")
 		)
 		(pin "11"
-			(uuid "ad06bc4e-5bb6-4ac4-8800-e061726f4877")
+			(uuid "ad06bc4e-5bb6-4ac4-8800-e061726f4878")
 		)
 		(pin "12"
-			(uuid "d36a8262-f28c-4a69-a79f-f7f578ca9f56")
+			(uuid "d36a8262-f28c-4a69-a79f-f7f578ca9f57")
 		)
 		(pin "13"
-			(uuid "6ff247ec-fdfe-4fa2-b8d1-7cf5fc109c73")
+			(uuid "6ff247ec-fdfe-4fa2-b8d1-7cf5fc109c74")
 		)
 		(pin "2"
-			(uuid "9f529a42-0865-43b4-843a-91a788238115")
+			(uuid "9f529a42-0865-43b4-843a-91a788238116")
 		)
 		(pin "3"
-			(uuid "0c9375c3-ba5d-47c5-91a9-51bb30cc3cd4")
+			(uuid "0c9375c3-ba5d-47c5-91a9-51bb30cc3cd5")
 		)
 		(pin "8"
-			(uuid "42f14f72-b958-461e-8298-ad1018255390")
+			(uuid "42f14f72-b958-461e-8298-ad1018255391")
 		)
 		(pin "10"
-			(uuid "b099ce1d-c7ec-4b5a-925c-bb363d04b53d")
+			(uuid "b099ce1d-c7ec-4b5a-925c-bb363d04b53e")
 		)
 		(pin "4"
-			(uuid "fda47fa2-fee5-4193-a564-6a611e822c76")
+			(uuid "fda47fa2-fee5-4193-a564-6a611e822c77")
 		)
 		(pin "6"
-			(uuid "c833fca8-169e-4f62-8478-5082604ca94a")
+			(uuid "c833fca8-169e-4f62-8478-5082604ca94b")
 		)
 		(instances
 			(project ""
@@ -56808,46 +57114,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "a76411d7-c9db-471d-9495-2f9e49042293")
+			(uuid "a76411d7-c9db-471d-9495-2f9e49042295")
 		)
 		(pin "5"
-			(uuid "69070831-ca8f-40c3-b7ca-34612024a77d")
+			(uuid "69070831-ca8f-40c3-b7ca-34612024a77f")
 		)
 		(pin "14"
-			(uuid "922fd995-f645-4e3a-a0ac-8b3dcc9ce4dc")
+			(uuid "922fd995-f645-4e3a-a0ac-8b3dcc9ce4de")
 		)
 		(pin "7"
-			(uuid "db38030e-2ba8-4860-91e1-59979ddd4200")
+			(uuid "db38030e-2ba8-4860-91e1-59979ddd4202")
 		)
 		(pin "1"
-			(uuid "5638afcc-251b-4986-b8a3-4ea17f44dd46")
+			(uuid "5638afcc-251b-4986-b8a3-4ea17f44dd48")
 		)
 		(pin "11"
-			(uuid "ad06bc4e-5bb6-4ac4-8800-e061726f4877")
+			(uuid "ad06bc4e-5bb6-4ac4-8800-e061726f4879")
 		)
 		(pin "12"
-			(uuid "d36a8262-f28c-4a69-a79f-f7f578ca9f56")
+			(uuid "d36a8262-f28c-4a69-a79f-f7f578ca9f58")
 		)
 		(pin "13"
-			(uuid "6ff247ec-fdfe-4fa2-b8d1-7cf5fc109c73")
+			(uuid "6ff247ec-fdfe-4fa2-b8d1-7cf5fc109c75")
 		)
 		(pin "2"
-			(uuid "9f529a42-0865-43b4-843a-91a788238115")
+			(uuid "9f529a42-0865-43b4-843a-91a788238117")
 		)
 		(pin "3"
-			(uuid "0c9375c3-ba5d-47c5-91a9-51bb30cc3cd4")
+			(uuid "0c9375c3-ba5d-47c5-91a9-51bb30cc3cd6")
 		)
 		(pin "8"
-			(uuid "42f14f72-b958-461e-8298-ad1018255390")
+			(uuid "42f14f72-b958-461e-8298-ad1018255392")
 		)
 		(pin "10"
-			(uuid "b099ce1d-c7ec-4b5a-925c-bb363d04b53d")
+			(uuid "b099ce1d-c7ec-4b5a-925c-bb363d04b53f")
 		)
 		(pin "4"
-			(uuid "fda47fa2-fee5-4193-a564-6a611e822c76")
+			(uuid "fda47fa2-fee5-4193-a564-6a611e822c78")
 		)
 		(pin "6"
-			(uuid "c833fca8-169e-4f62-8478-5082604ca94a")
+			(uuid "c833fca8-169e-4f62-8478-5082604ca94c")
 		)
 		(instances
 			(project ""
@@ -57452,6 +57758,71 @@
 			(project "Issue_5"
 				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
 					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280.67 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17217dc7-81da-4f10-8e90-64dd79dfd95b")
+		(property "Reference" "#PWR0167"
+			(at 280.67 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.972 256.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45c55163-f2e7-453c-a895-1b6798bdb071")
+		)
+		(instances
+			(project "Issue_5"
+				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -63355,6 +63726,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NPN")
+		(at 113.03 335.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "41919633-2ad3-4278-94cd-b0e2dcc238a4")
+		(property "Reference" "TR1.1"
+			(at 115.57 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC184"
+			(at 115.57 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "8bits:TO-92-SINCLAIR"
+			(at 49.53 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 49.53 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 113.03 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 113.03 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 113.03 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 113.03 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52c156d6-722d-46c4-b94f-aaa04e451ea8")
+		)
+		(pin "1"
+			(uuid "676ff566-2d37-4d1e-8aec-36b80ff447da")
+		)
+		(pin "3"
+			(uuid "2f15edce-0f0b-4399-b60a-cef611372fe2")
+		)
+		(instances
+			(project "Issue_5"
+				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
+					(reference "TR1.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 279.4 370.84 90)
 		(unit 1)
@@ -65130,7 +65601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm"
 			(at 297.18 400.05 0)
 			(effects
 				(font
@@ -75765,46 +76236,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "a76411d7-c9db-471d-9495-2f9e49042293")
+			(uuid "a76411d7-c9db-471d-9495-2f9e49042296")
 		)
 		(pin "5"
-			(uuid "69070831-ca8f-40c3-b7ca-34612024a77d")
+			(uuid "69070831-ca8f-40c3-b7ca-34612024a780")
 		)
 		(pin "14"
-			(uuid "922fd995-f645-4e3a-a0ac-8b3dcc9ce4dc")
+			(uuid "922fd995-f645-4e3a-a0ac-8b3dcc9ce4df")
 		)
 		(pin "7"
-			(uuid "db38030e-2ba8-4860-91e1-59979ddd4200")
+			(uuid "db38030e-2ba8-4860-91e1-59979ddd4203")
 		)
 		(pin "1"
-			(uuid "5638afcc-251b-4986-b8a3-4ea17f44dd46")
+			(uuid "5638afcc-251b-4986-b8a3-4ea17f44dd49")
 		)
 		(pin "11"
-			(uuid "ad06bc4e-5bb6-4ac4-8800-e061726f4877")
+			(uuid "ad06bc4e-5bb6-4ac4-8800-e061726f487a")
 		)
 		(pin "12"
-			(uuid "d36a8262-f28c-4a69-a79f-f7f578ca9f56")
+			(uuid "d36a8262-f28c-4a69-a79f-f7f578ca9f59")
 		)
 		(pin "13"
-			(uuid "6ff247ec-fdfe-4fa2-b8d1-7cf5fc109c73")
+			(uuid "6ff247ec-fdfe-4fa2-b8d1-7cf5fc109c76")
 		)
 		(pin "2"
-			(uuid "9f529a42-0865-43b4-843a-91a788238115")
+			(uuid "9f529a42-0865-43b4-843a-91a788238118")
 		)
 		(pin "3"
-			(uuid "0c9375c3-ba5d-47c5-91a9-51bb30cc3cd4")
+			(uuid "0c9375c3-ba5d-47c5-91a9-51bb30cc3cd7")
 		)
 		(pin "8"
-			(uuid "42f14f72-b958-461e-8298-ad1018255390")
+			(uuid "42f14f72-b958-461e-8298-ad1018255393")
 		)
 		(pin "10"
-			(uuid "b099ce1d-c7ec-4b5a-925c-bb363d04b53d")
+			(uuid "b099ce1d-c7ec-4b5a-925c-bb363d04b540")
 		)
 		(pin "4"
-			(uuid "fda47fa2-fee5-4193-a564-6a611e822c76")
+			(uuid "fda47fa2-fee5-4193-a564-6a611e822c79")
 		)
 		(pin "6"
-			(uuid "c833fca8-169e-4f62-8478-5082604ca94a")
+			(uuid "c833fca8-169e-4f62-8478-5082604ca94d")
 		)
 		(instances
 			(project ""
@@ -86947,6 +87418,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 280.67 251.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edfffbc1-4ac7-43b9-8fcc-ebc30e0491ec")
+		(property "Reference" "BT1"
+			(at 279.908 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery"
+			(at 279.908 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 280.67 249.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 249.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 280.67 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b3b2086-c020-46e1-897d-09a5b164d108")
+		)
+		(pin "1"
+			(uuid "b8afd9cb-8acf-47fb-b0f5-e6f7ce64518c")
+		)
+		(instances
+			(project "Issue_5"
+				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 431.8 85.09 180)
 		(unit 1)
@@ -89348,46 +89887,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "a76411d7-c9db-471d-9495-2f9e49042293")
+			(uuid "a76411d7-c9db-471d-9495-2f9e49042297")
 		)
 		(pin "5"
-			(uuid "69070831-ca8f-40c3-b7ca-34612024a77d")
+			(uuid "69070831-ca8f-40c3-b7ca-34612024a781")
 		)
 		(pin "14"
-			(uuid "922fd995-f645-4e3a-a0ac-8b3dcc9ce4dc")
+			(uuid "922fd995-f645-4e3a-a0ac-8b3dcc9ce4e0")
 		)
 		(pin "7"
-			(uuid "db38030e-2ba8-4860-91e1-59979ddd4200")
+			(uuid "db38030e-2ba8-4860-91e1-59979ddd4204")
 		)
 		(pin "1"
-			(uuid "5638afcc-251b-4986-b8a3-4ea17f44dd46")
+			(uuid "5638afcc-251b-4986-b8a3-4ea17f44dd4a")
 		)
 		(pin "11"
-			(uuid "ad06bc4e-5bb6-4ac4-8800-e061726f4877")
+			(uuid "ad06bc4e-5bb6-4ac4-8800-e061726f487b")
 		)
 		(pin "12"
-			(uuid "d36a8262-f28c-4a69-a79f-f7f578ca9f56")
+			(uuid "d36a8262-f28c-4a69-a79f-f7f578ca9f5a")
 		)
 		(pin "13"
-			(uuid "6ff247ec-fdfe-4fa2-b8d1-7cf5fc109c73")
+			(uuid "6ff247ec-fdfe-4fa2-b8d1-7cf5fc109c77")
 		)
 		(pin "2"
-			(uuid "9f529a42-0865-43b4-843a-91a788238115")
+			(uuid "9f529a42-0865-43b4-843a-91a788238119")
 		)
 		(pin "3"
-			(uuid "0c9375c3-ba5d-47c5-91a9-51bb30cc3cd4")
+			(uuid "0c9375c3-ba5d-47c5-91a9-51bb30cc3cd8")
 		)
 		(pin "8"
-			(uuid "42f14f72-b958-461e-8298-ad1018255390")
+			(uuid "42f14f72-b958-461e-8298-ad1018255394")
 		)
 		(pin "10"
-			(uuid "b099ce1d-c7ec-4b5a-925c-bb363d04b53d")
+			(uuid "b099ce1d-c7ec-4b5a-925c-bb363d04b541")
 		)
 		(pin "4"
-			(uuid "fda47fa2-fee5-4193-a564-6a611e822c76")
+			(uuid "fda47fa2-fee5-4193-a564-6a611e822c7a")
 		)
 		(pin "6"
-			(uuid "c833fca8-169e-4f62-8478-5082604ca94a")
+			(uuid "c833fca8-169e-4f62-8478-5082604ca94e")
 		)
 		(instances
 			(project ""
