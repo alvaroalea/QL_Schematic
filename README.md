@@ -28,7 +28,15 @@ Future schematic of the Issue 5
 
 ### STATUS
 - Schematic - 75% HAL chip remove from Issue 6, other changes pending.
-- PCB - 50% draw, incomplete, actually based on Issue 6, no data of real PCB.
+- PCB - 50% draw, incomplete, actually based on Issue 6, Got Good Picture of Solder side (100% Cover) and data from componentes (about 50%)
+- INCOMPLETE, NOT TESTED
+
+## Folder: Issue_2
+Future schematic of the Issue 2
+
+### STATUS
+- Schematic - 0% not evaluated.
+- PCB - 5% draw, incomplete, actually based on Issue 6, Got Good Picture of Solder side (90% Cover) and data from componentes (about 25%)
 - INCOMPLETE, NOT TESTED
 
 ## Folder: Issue_7ALEA
