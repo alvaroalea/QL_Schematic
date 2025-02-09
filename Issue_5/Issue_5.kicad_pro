@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.2,
-          "height": 2.2,
-          "width": 4.15
+          "drill": 0.75,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_near_hole|283337000|154178000|528ddabb-9a57-47ff-8a43-f0893264055b|72c8bb49-a1a0-404a-aa79-6fba2402b527",
+        "unconnected_items|167132000|134250000|87721f25-3903-4f3e-91c8-1ea6310923ca|f2f37a67-83ac-43a3-9e13-8fbccdc5d910",
+        "unconnected_items|168783000|142240000|d5c2ff40-b015-44f8-abd8-baeb87890f81|9c7a0f44-5c16-4184-beb4-afc9bd9400ab",
+        "unconnected_items|340995000|117602000|e0c66691-6f29-44fd-8ebd-8674f5858b3f|8fda362e-e8a7-47a1-ab8a-9a0ad9849f15"
+      ],
       "meta": {
         "version": 2
       },
@@ -675,7 +680,7 @@
   "sheets": [
     [
       "d9bf0336-77ec-432e-8be5-ef01ab52074a",
-      "Raíz"
+      "Root"
     ]
   ],
   "text_variables": {}

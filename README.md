@@ -14,7 +14,7 @@ This folder contain the schematic of the original Issue 6 of sinclair QL, from p
 ![My image](Issue_6/Issue_6_S.png)
 
 ### STATUS
-- Schematic - 100% draw, ERC Passed
+- Schematic - 100% draw, ERC passed
 - PCB - 100% draw, ERC passed
 - NOT TESTED
 
@@ -24,12 +24,15 @@ This folder contain the schematic of the original Issue 6 of sinclair QL, from p
 - normalice size of vias
 
 ## Folder: Issue_5
-Future schematic of the Issue 5
+This folder contain the schematic of the Issue 5
+
+![My image](Issue_5/Issue_5_C.png)
+![My image](Issue_5/Issue_5_S.png)
 
 ### STATUS
-- Schematic - 75% HAL chip remove from Issue 6, other changes pending.
-- PCB - 50% draw, incomplete, actually based on Issue 6, Got Good Picture of Solder side (100% Cover) and data from componentes (about 50%)
-- INCOMPLETE, NOT TESTED
+- Schematic - 99% draw, ERC passed
+- PCB - 99% draw, ERC passed incomplete, component side is 99%, at least 1 track missing, solder side is 100%, but 1 aditional track was need to complete the schematic.
+- NOT TESTED
 
 ## Folder: Issue_2
 Future schematic of the Issue 2
@@ -49,6 +52,8 @@ Future schematic & PCB of a improved Sinclair QL with moderm components.
 
 ### DONE
 - Change VCC track to GND to enhaced microdrive operation (mandatory mod. of service manual)
+- Incorporate R107,108 on PCB, not need to solder over ZX8302
+- Incorporate 5 diodes on PCB, not need to solder over ZX8301 to protect it
 
 ### TODO
 - Other mod of service manual

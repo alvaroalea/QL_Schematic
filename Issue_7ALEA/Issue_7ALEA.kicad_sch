@@ -13557,6 +13557,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Zener_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener_Small"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_Small_0_1"
+				(polyline
+					(pts
+						(xy 0.762 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -18948,12 +19093,6 @@
 		(uuid "0b22c9af-300c-43e6-91bd-3183b23fdf82")
 	)
 	(junction
-		(at 447.04 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e74b4ed-9c04-41b5-aa37-5ef29df5c4fc")
-	)
-	(junction
 		(at 297.18 373.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18988,6 +19127,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "123380b9-8615-4d32-91ff-d4f20137253a")
+	)
+	(junction
+		(at 1049.02 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13b533ce-f800-4a2c-8c89-c973c0f1467a")
 	)
 	(junction
 		(at 124.46 304.8)
@@ -19110,7 +19255,7 @@
 		(uuid "25df6dc9-5efb-424d-9c50-e5a0f5d6a5d3")
 	)
 	(junction
-		(at 589.28 241.3)
+		(at 589.28 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "272f3332-1568-4569-b39b-3273dca6eb98")
@@ -19170,6 +19315,12 @@
 		(uuid "2b11fd9e-9dd9-4d31-be7e-7247ca525056")
 	)
 	(junction
+		(at 548.64 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d361d93-b793-48fc-9456-c986549f231f")
+	)
+	(junction
 		(at 609.6 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -19206,6 +19357,12 @@
 		(uuid "3181546f-82ca-4b8e-9723-4d1472c5c5a0")
 	)
 	(junction
+		(at 1052.83 269.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "321a4d8b-09d8-4a64-bcb5-f3dbec64e9f6")
+	)
+	(junction
 		(at 105.41 389.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -19216,6 +19373,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32885686-6905-4690-ae31-e48850835b0b")
+	)
+	(junction
+		(at 551.18 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3333096b-3b61-44ab-a820-a7dd583ffe5e")
 	)
 	(junction
 		(at 971.55 349.25)
@@ -19260,10 +19423,10 @@
 		(uuid "364d28b9-11aa-40e1-b37a-2d8ca27f7822")
 	)
 	(junction
-		(at 444.5 242.57)
+		(at 1056.64 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "366bc08e-dc57-4de2-a70f-67aaecbdc29d")
+		(uuid "371833f3-b662-426f-a94b-4873ad92ccb6")
 	)
 	(junction
 		(at 119.38 389.89)
@@ -19396,6 +19559,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "433073cb-cee0-4251-99c8-c8e3dd63e1be")
+	)
+	(junction
+		(at 1045.21 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4469c912-ae9e-4c90-9623-e3b9a3f59d87")
 	)
 	(junction
 		(at 337.82 26.67)
@@ -19726,6 +19895,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "659864ad-4e9b-49c3-a282-cdbc6f0fec38")
+	)
+	(junction
+		(at 1045.21 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "665605b3-6e5b-49c5-b0b9-d252dcb0b1fe")
 	)
 	(junction
 		(at 966.47 354.33)
@@ -20112,6 +20287,12 @@
 		(uuid "9c1dbbb9-44bd-4ec3-9558-8eea544533d4")
 	)
 	(junction
+		(at 1052.83 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ce2e32a-4c54-436c-be28-9ff8fb4afaff")
+	)
+	(junction
 		(at 453.39 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -20206,6 +20387,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab4033e4-c0f7-45fc-84c5-0c9c6cc3b482")
+	)
+	(junction
+		(at 1056.64 271.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abe53b5b-56af-45fe-a31f-be0bac3defdb")
 	)
 	(junction
 		(at 769.62 378.46)
@@ -20370,6 +20557,12 @@
 		(uuid "bf889a89-fd5c-4501-b066-2308d9c6756c")
 	)
 	(junction
+		(at 1049.02 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfa1cc4c-f9d4-48e6-b86d-9db6e1fd8614")
+	)
+	(junction
 		(at 407.67 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -20476,6 +20669,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd0521e6-a122-4cf1-8af5-7e1d89aa830c")
+	)
+	(junction
+		(at 1060.45 274.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ced26cee-e981-4c75-9340-cb8e2c91cdda")
 	)
 	(junction
 		(at 323.85 242.57)
@@ -24687,16 +24886,6 @@
 		)
 		(uuid "ffc67cb6-ca91-4abd-9ac2-b909bc020ff3")
 	)
-	(wire
-		(pts
-			(xy 447.04 238.76) (xy 447.04 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0028232e-97d3-4955-8030-26a2608e82ad")
-	)
 	(bus
 		(pts
 			(xy 590.55 293.37) (xy 590.55 295.91)
@@ -24816,6 +25005,16 @@
 			(type default)
 		)
 		(uuid "0190edf3-1af8-499f-bb30-e080db81c862")
+	)
+	(wire
+		(pts
+			(xy 1049.02 246.38) (xy 1045.21 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a7606f-fa4e-4ed1-9c09-420a6fab7556")
 	)
 	(wire
 		(pts
@@ -26029,6 +26228,16 @@
 	)
 	(wire
 		(pts
+			(xy 1052.83 269.24) (xy 1073.15 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f791c0b-9542-4be9-8ff4-ae29ead269ad")
+	)
+	(wire
+		(pts
 			(xy 78.74 356.87) (xy 78.74 374.65)
 		)
 		(stroke
@@ -26049,7 +26258,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 290.83) (xy 313.69 290.83)
+			(xy 303.53 290.83) (xy 323.85 290.83)
 		)
 		(stroke
 			(width 0)
@@ -26236,6 +26445,16 @@
 			(type default)
 		)
 		(uuid "12e3a8fc-b453-4eb9-93f4-94d6e75b8b0e")
+	)
+	(wire
+		(pts
+			(xy 1060.45 246.38) (xy 1056.64 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e5fdf6-bb68-425c-a1eb-657c15718ad4")
 	)
 	(wire
 		(pts
@@ -26449,6 +26668,16 @@
 	)
 	(wire
 		(pts
+			(xy 1052.83 246.38) (xy 1052.83 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1572715c-1aeb-4ddb-a5e5-b1c00f77db42")
+	)
+	(wire
+		(pts
 			(xy 593.09 308.61) (xy 605.79 308.61)
 		)
 		(stroke
@@ -26609,7 +26838,7 @@
 	)
 	(wire
 		(pts
-			(xy 1029.97 266.7) (xy 1070.61 266.7)
+			(xy 1029.97 266.7) (xy 1049.02 266.7)
 		)
 		(stroke
 			(width 0)
@@ -26746,6 +26975,16 @@
 			(type default)
 		)
 		(uuid "19c2aab2-4b27-4ed3-8c59-93fe654614db")
+	)
+	(wire
+		(pts
+			(xy 1056.64 257.81) (xy 1056.64 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19dc1c11-df38-4496-b749-e6246e904669")
 	)
 	(wire
 		(pts
@@ -26959,7 +27198,7 @@
 	)
 	(wire
 		(pts
-			(xy 580.39 241.3) (xy 589.28 241.3)
+			(xy 580.39 242.57) (xy 589.28 242.57)
 		)
 		(stroke
 			(width 0)
@@ -29039,7 +29278,7 @@
 	)
 	(wire
 		(pts
-			(xy 588.01 238.76) (xy 589.28 238.76)
+			(xy 588.01 240.03) (xy 589.28 240.03)
 		)
 		(stroke
 			(width 0)
@@ -29376,6 +29615,16 @@
 			(type default)
 		)
 		(uuid "3dcb9c1c-7b0a-4eb8-9816-49bbd0960431")
+	)
+	(wire
+		(pts
+			(xy 1045.21 246.38) (xy 1038.86 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df2b761-ab5a-4e39-aa46-c892dbf7e134")
 	)
 	(wire
 		(pts
@@ -30087,6 +30336,16 @@
 		)
 		(uuid "46d03155-ede4-436f-9ac6-186c4f09834d")
 	)
+	(wire
+		(pts
+			(xy 1060.45 274.32) (xy 1070.61 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ddcf7b-ce1c-4c53-9f7e-98ae6c716b90")
+	)
 	(bus
 		(pts
 			(xy 642.62 364.49) (xy 689.61 364.49)
@@ -30119,7 +30378,7 @@
 	)
 	(wire
 		(pts
-			(xy 589.28 238.76) (xy 589.28 241.3)
+			(xy 589.28 240.03) (xy 589.28 242.57)
 		)
 		(stroke
 			(width 0)
@@ -30326,16 +30585,6 @@
 			(type default)
 		)
 		(uuid "49448103-9247-49bc-b6aa-163f55f298af")
-	)
-	(wire
-		(pts
-			(xy 321.31 290.83) (xy 323.85 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4960f0df-13a5-4ff7-b97e-5b85302c8342")
 	)
 	(wire
 		(pts
@@ -30639,6 +30888,16 @@
 	)
 	(wire
 		(pts
+			(xy 1049.02 257.81) (xy 1049.02 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc4ce54-d58c-4c6c-a31d-632fe23776a6")
+	)
+	(wire
+		(pts
 			(xy 284.48 120.65) (xy 285.75 120.65)
 		)
 		(stroke
@@ -30829,13 +31088,23 @@
 	)
 	(wire
 		(pts
-			(xy 1029.97 274.32) (xy 1070.61 274.32)
+			(xy 1029.97 274.32) (xy 1060.45 274.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4fbc875f-fdfb-4bf5-b877-cacdb9765ba3")
+	)
+	(wire
+		(pts
+			(xy 1049.02 246.38) (xy 1049.02 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc1e97b-01dd-419c-9529-786d8f96347b")
 	)
 	(wire
 		(pts
@@ -31016,6 +31285,16 @@
 			(type default)
 		)
 		(uuid "50ed2e0e-8cad-4708-8fc3-a2036af72bd0")
+	)
+	(wire
+		(pts
+			(xy 548.64 242.57) (xy 572.77 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51044c6f-d56d-4074-b9a5-0a4b18092c7b")
 	)
 	(wire
 		(pts
@@ -31607,6 +31886,16 @@
 		)
 		(uuid "585f5eaa-1b0f-41a4-bb47-f9140ce066eb")
 	)
+	(wire
+		(pts
+			(xy 1060.45 257.81) (xy 1060.45 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5870e6ad-6ef5-469b-b300-7a463c6c3fb1")
+	)
 	(bus
 		(pts
 			(xy 924.56 328.93) (xy 924.56 334.01)
@@ -31619,7 +31908,7 @@
 	)
 	(wire
 		(pts
-			(xy 1029.97 269.24) (xy 1073.15 269.24)
+			(xy 1029.97 269.24) (xy 1052.83 269.24)
 		)
 		(stroke
 			(width 0)
@@ -32899,16 +33188,6 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 241.3) (xy 444.5 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "674bd955-2687-4c21-a8ce-f2df7f282428")
-	)
-	(wire
-		(pts
 			(xy 609.6 209.55) (xy 612.14 209.55)
 		)
 		(stroke
@@ -33316,16 +33595,6 @@
 			(type default)
 		)
 		(uuid "6cc6cf74-21ad-416a-a142-ebf836bc18fe")
-	)
-	(wire
-		(pts
-			(xy 447.04 240.03) (xy 551.18 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ccfc4d5-ca04-4fa2-8b22-71b42f3214ea")
 	)
 	(bus
 		(pts
@@ -34410,7 +34679,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 288.29) (xy 307.34 288.29)
+			(xy 303.53 288.29) (xy 321.31 288.29)
 		)
 		(stroke
 			(width 0)
@@ -35070,6 +35339,16 @@
 	)
 	(wire
 		(pts
+			(xy 1045.21 246.38) (xy 1045.21 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a2b34f-fdcc-475b-bc77-9d2ba19fea0e")
+	)
+	(wire
+		(pts
 			(xy 537.21 280.67) (xy 1002.03 280.67)
 		)
 		(stroke
@@ -35447,6 +35726,16 @@
 			(type default)
 		)
 		(uuid "8566af24-5717-4c8e-9107-646ef9226dda")
+	)
+	(wire
+		(pts
+			(xy 1056.64 246.38) (xy 1052.83 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85765315-ae1e-4268-8c79-52f6175dfa50")
 	)
 	(wire
 		(pts
@@ -35940,6 +36229,16 @@
 	)
 	(wire
 		(pts
+			(xy 1056.64 246.38) (xy 1056.64 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8221a9-23a0-455a-a09b-ae2772fbb814")
+	)
+	(wire
+		(pts
 			(xy 552.45 77.47) (xy 552.45 80.01)
 		)
 		(stroke
@@ -36317,16 +36616,6 @@
 			(type default)
 		)
 		(uuid "8ea0ce13-eabe-4fab-a585-a61ab8f9650b")
-	)
-	(wire
-		(pts
-			(xy 314.96 288.29) (xy 321.31 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea99749-2a27-4b2b-b58b-b06481f781b2")
 	)
 	(wire
 		(pts
@@ -37227,6 +37516,16 @@
 			(type default)
 		)
 		(uuid "9a0e79ea-30e6-45ff-8933-1766832ae9df")
+	)
+	(wire
+		(pts
+			(xy 1049.02 266.7) (xy 1070.61 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a301aca-dad9-4be8-adab-c95c1e7f61d7")
 	)
 	(wire
 		(pts
@@ -38430,16 +38729,6 @@
 	)
 	(wire
 		(pts
-			(xy 447.04 238.76) (xy 580.39 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a980be99-e86e-4e50-9cdb-2528490243bf")
-	)
-	(wire
-		(pts
 			(xy 880.11 313.69) (xy 887.73 313.69)
 		)
 		(stroke
@@ -38457,6 +38746,16 @@
 			(type default)
 		)
 		(uuid "a993c83a-faa8-46c5-bf0a-5d92ed9fde73")
+	)
+	(wire
+		(pts
+			(xy 1045.21 257.81) (xy 1045.21 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a0e115-0a13-4800-a32c-55e952207ae2")
 	)
 	(bus
 		(pts
@@ -38630,6 +38929,16 @@
 	)
 	(wire
 		(pts
+			(xy 551.18 240.03) (xy 580.39 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdb5e3f-803b-410a-9848-593b6e4f5f2d")
+	)
+	(wire
+		(pts
 			(xy 431.8 67.31) (xy 492.76 67.31)
 		)
 		(stroke
@@ -38717,6 +39026,16 @@
 			(type default)
 		)
 		(uuid "ad2fd22a-e0bf-4994-bccf-d3fc6d93f791")
+	)
+	(wire
+		(pts
+			(xy 1038.86 246.38) (xy 1038.86 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad31c824-fd43-47aa-be98-11c71e4bbd42")
 	)
 	(wire
 		(pts
@@ -39278,6 +39597,16 @@
 		)
 		(uuid "b476cd80-5528-4492-97cb-09a2457436bc")
 	)
+	(wire
+		(pts
+			(xy 1052.83 246.38) (xy 1049.02 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48cc266-d134-4933-8e90-855db5fb83cd")
+	)
 	(bus
 		(pts
 			(xy 924.56 391.16) (xy 924.56 393.7)
@@ -39290,7 +39619,7 @@
 	)
 	(wire
 		(pts
-			(xy 1029.97 264.16) (xy 1068.07 264.16)
+			(xy 1029.97 264.16) (xy 1045.21 264.16)
 		)
 		(stroke
 			(width 0)
@@ -40861,7 +41190,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 240.03) (xy 447.04 240.03)
+			(xy 374.65 240.03) (xy 551.18 240.03)
 		)
 		(stroke
 			(width 0)
@@ -41512,16 +41841,6 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 241.3) (xy 572.77 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0569ab2-aa10-43ca-ab07-be3788bf253e")
-	)
-	(wire
-		(pts
 			(xy 476.25 118.11) (xy 548.64 118.11)
 		)
 		(stroke
@@ -41589,6 +41908,16 @@
 			(type default)
 		)
 		(uuid "d114de79-ab40-4801-ac7a-c30e24a53c18")
+	)
+	(wire
+		(pts
+			(xy 1056.64 271.78) (xy 1075.69 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12db2a5-7531-49d9-9e9a-2658bff63222")
 	)
 	(wire
 		(pts
@@ -42813,6 +43142,16 @@
 	)
 	(wire
 		(pts
+			(xy 1060.45 252.73) (xy 1060.45 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08390a0-ee3e-4ec9-86b6-199bc1c9b0f3")
+	)
+	(wire
+		(pts
 			(xy 739.14 378.46) (xy 746.76 378.46)
 		)
 		(stroke
@@ -42931,6 +43270,16 @@
 		)
 		(uuid "e1a9aad6-aeea-474a-bc1e-dbe91f3468fe")
 	)
+	(wire
+		(pts
+			(xy 1045.21 264.16) (xy 1068.07 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c6a94a-afcb-494d-961b-b93c11ab8c9d")
+	)
 	(bus
 		(pts
 			(xy 492.76 487.68) (xy 492.76 494.03)
@@ -42983,7 +43332,7 @@
 	)
 	(wire
 		(pts
-			(xy 589.28 241.3) (xy 589.28 242.57)
+			(xy 589.28 242.57) (xy 589.28 243.84)
 		)
 		(stroke
 			(width 0)
@@ -44462,6 +44811,16 @@
 		)
 		(uuid "f41f2b5f-d455-488b-86c6-2ee14e7b7588")
 	)
+	(wire
+		(pts
+			(xy 1052.83 257.81) (xy 1052.83 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f443e919-3545-46bc-aaed-49edd1ed6480")
+	)
 	(bus
 		(pts
 			(xy 736.6 388.62) (xy 736.6 391.16)
@@ -44471,16 +44830,6 @@
 			(type default)
 		)
 		(uuid "f46b5e62-eeb0-48a3-b835-6e4d9245275f")
-	)
-	(wire
-		(pts
-			(xy 444.5 242.57) (xy 548.64 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4b3f901-2774-494b-b7ce-1e4d4004b3bc")
 	)
 	(wire
 		(pts
@@ -45154,7 +45503,7 @@
 	)
 	(wire
 		(pts
-			(xy 1029.97 271.78) (xy 1075.69 271.78)
+			(xy 1029.97 271.78) (xy 1056.64 271.78)
 		)
 		(stroke
 			(width 0)
@@ -45375,7 +45724,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 242.57) (xy 444.5 242.57)
+			(xy 372.11 242.57) (xy 548.64 242.57)
 		)
 		(stroke
 			(width 0)
@@ -45392,17 +45741,6 @@
 			(type default)
 		)
 		(uuid "ffd0754f-aa83-4e79-baad-0bcd681b5515")
-	)
-	(text "NOTE:\nR107,R108 Aereal instalation over IC23 \nan a wire to -12V (PIN 1 of IC25)"
-		(exclude_from_sim no)
-		(at 595.122 243.078 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "18f8b508-ecb6-4c80-a45e-31c7a599197f")
 	)
 	(text "NOTE:\nD22 not show on PCB, \nprobably to be solder aereal, \njumper in schematic is for ERC"
 		(exclude_from_sim no)
@@ -45448,7 +45786,6 @@
 	)
 	(label "A4"
 		(at 702.31 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45459,7 +45796,6 @@
 	)
 	(label "WRL"
 		(at 882.65 331.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45470,7 +45806,6 @@
 	)
 	(label "RASL"
 		(at 741.68 406.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45481,7 +45816,6 @@
 	)
 	(label "A10"
 		(at 462.28 313.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45492,7 +45826,6 @@
 	)
 	(label "DA2"
 		(at 694.69 383.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45503,7 +45836,6 @@
 	)
 	(label "BLUE"
 		(at 689.61 511.81 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45514,7 +45846,6 @@
 	)
 	(label "DA2"
 		(at 741.68 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45525,7 +45856,6 @@
 	)
 	(label "RASL"
 		(at 694.69 406.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45536,7 +45866,6 @@
 	)
 	(label "DA1"
 		(at 996.95 292.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45547,7 +45876,6 @@
 	)
 	(label "RAW1"
 		(at 548.64 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45558,7 +45886,6 @@
 	)
 	(label "CAS1L"
 		(at 646.43 408.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45569,7 +45896,6 @@
 	)
 	(label "CLK_CPU"
 		(at 389.89 284.48 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45580,7 +45906,6 @@
 	)
 	(label "DA3"
 		(at 647.7 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45591,7 +45916,6 @@
 	)
 	(label "D0"
 		(at 654.05 511.81 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45602,7 +45926,6 @@
 	)
 	(label "VIDEOC"
 		(at 1096.01 251.46 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45613,7 +45936,6 @@
 	)
 	(label "DA7"
 		(at 929.64 396.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45624,7 +45946,6 @@
 	)
 	(label "A7"
 		(at 445.77 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45635,7 +45956,6 @@
 	)
 	(label "A14"
 		(at 462.28 323.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45646,7 +45966,6 @@
 	)
 	(label "A2"
 		(at 462.28 293.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45657,7 +45976,6 @@
 	)
 	(label "A11"
 		(at 462.28 316.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45668,7 +45986,6 @@
 	)
 	(label "A11"
 		(at 445.77 316.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45679,7 +45996,6 @@
 	)
 	(label "GREEN"
 		(at 687.07 511.81 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45690,7 +46006,6 @@
 	)
 	(label "D4"
 		(at 443.23 356.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45701,7 +46016,6 @@
 	)
 	(label "DA6"
 		(at 600.71 393.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45712,7 +46026,6 @@
 	)
 	(label "DA3"
 		(at 581.66 317.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45723,7 +46036,6 @@
 	)
 	(label "DS"
 		(at 659.13 514.35 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45734,7 +46046,6 @@
 	)
 	(label "CAS0L"
 		(at 787.4 326.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45745,7 +46056,6 @@
 	)
 	(label "WRL"
 		(at 694.69 331.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45756,7 +46066,6 @@
 	)
 	(label "DB2"
 		(at 577.85 426.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45767,7 +46076,6 @@
 	)
 	(label "DSMCL"
 		(at 1070.61 325.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45778,7 +46086,6 @@
 	)
 	(label "Vin"
 		(at 157.48 535.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45789,7 +46096,6 @@
 	)
 	(label "ERASE"
 		(at 346.71 250.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45800,7 +46106,6 @@
 	)
 	(label "A4"
 		(at 539.75 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45811,7 +46116,6 @@
 	)
 	(label "D1"
 		(at 651.51 511.81 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45822,7 +46126,6 @@
 	)
 	(label "DA1"
 		(at 741.68 381 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45833,7 +46136,6 @@
 	)
 	(label "DA1"
 		(at 835.66 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45844,7 +46146,6 @@
 	)
 	(label "DA4"
 		(at 788.67 388.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45855,7 +46156,6 @@
 	)
 	(label "A16"
 		(at 445.77 328.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45866,7 +46166,6 @@
 	)
 	(label "TXD1"
 		(at 1070.61 332.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45877,7 +46176,6 @@
 	)
 	(label "DA3"
 		(at 741.68 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45888,7 +46186,6 @@
 	)
 	(label "CAS1L"
 		(at 834.39 408.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45899,7 +46196,6 @@
 	)
 	(label "NN1"
 		(at 101.6 481.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45910,7 +46206,6 @@
 	)
 	(label "WRL"
 		(at 694.69 414.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45921,7 +46216,6 @@
 	)
 	(label "WRL"
 		(at 835.66 331.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45932,7 +46226,6 @@
 	)
 	(label "DB5"
 		(at 864.87 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45943,7 +46236,6 @@
 	)
 	(label "A17"
 		(at 991.87 273.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45954,7 +46246,6 @@
 	)
 	(label "D0"
 		(at 497.84 288.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45965,7 +46256,6 @@
 	)
 	(label "DA3"
 		(at 694.69 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45976,7 +46266,6 @@
 	)
 	(label "D4"
 		(at 487.68 298.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45987,7 +46276,6 @@
 	)
 	(label "A1"
 		(at 547.37 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45998,7 +46286,6 @@
 	)
 	(label "A14"
 		(at 542.29 370.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46009,7 +46296,6 @@
 	)
 	(label "A17"
 		(at 666.75 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46020,7 +46306,6 @@
 	)
 	(label "D2"
 		(at 487.68 293.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46031,7 +46316,6 @@
 	)
 	(label "A9"
 		(at 462.28 311.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46042,7 +46326,6 @@
 	)
 	(label "A9"
 		(at 537.21 504.19 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46053,7 +46336,6 @@
 	)
 	(label "A15"
 		(at 542.29 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46064,7 +46346,6 @@
 	)
 	(label "DA1"
 		(at 882.65 381 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46075,7 +46356,6 @@
 	)
 	(label "D3"
 		(at 497.84 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46086,7 +46366,6 @@
 	)
 	(label "DA1"
 		(at 600.71 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46097,7 +46376,6 @@
 	)
 	(label "A7"
 		(at 523.24 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46108,7 +46386,6 @@
 	)
 	(label "WRL"
 		(at 788.67 331.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46119,7 +46396,6 @@
 	)
 	(label "DA2"
 		(at 835.66 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46130,7 +46406,6 @@
 	)
 	(label "D2"
 		(at 542.29 426.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46141,7 +46416,6 @@
 	)
 	(label "DA7"
 		(at 788.67 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46152,7 +46426,6 @@
 	)
 	(label "IPC_INTL"
 		(at 1108.71 330.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46163,7 +46436,6 @@
 	)
 	(label "BRL"
 		(at 391.16 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46174,7 +46446,6 @@
 	)
 	(label "DB4"
 		(at 577.85 421.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46185,7 +46456,6 @@
 	)
 	(label "A15"
 		(at 547.37 504.19 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46196,7 +46466,6 @@
 	)
 	(label "DA4"
 		(at 929.64 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46207,7 +46476,6 @@
 	)
 	(label "D[0..7]"
 		(at 448.31 375.92 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46218,7 +46486,6 @@
 	)
 	(label "DA4"
 		(at 929.64 388.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46229,7 +46496,6 @@
 	)
 	(label "IC24_DB.5"
 		(at 157.48 377.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46240,7 +46506,6 @@
 	)
 	(label "VSYNC"
 		(at 304.8 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46251,7 +46516,6 @@
 	)
 	(label "A0"
 		(at 311.15 318.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46262,7 +46526,6 @@
 	)
 	(label "DA0"
 		(at 788.67 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46273,7 +46536,6 @@
 	)
 	(label "A0"
 		(at 549.91 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46284,7 +46546,6 @@
 	)
 	(label "DA7"
 		(at 835.66 396.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46295,7 +46556,6 @@
 	)
 	(label "FC1"
 		(at 694.69 509.27 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46306,7 +46566,6 @@
 	)
 	(label "A13"
 		(at 462.28 321.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46317,7 +46576,6 @@
 	)
 	(label "Vin"
 		(at 731.52 514.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46328,7 +46586,6 @@
 	)
 	(label "DA3"
 		(at 600.71 386.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46339,7 +46596,6 @@
 	)
 	(label "DA3"
 		(at 929.64 386.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46350,7 +46606,6 @@
 	)
 	(label "RASL"
 		(at 882.65 323.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46361,7 +46616,6 @@
 	)
 	(label "IPL2{slash}0"
 		(at 121.92 314.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46372,7 +46626,6 @@
 	)
 	(label "CAS0L"
 		(at 599.44 326.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46383,7 +46636,6 @@
 	)
 	(label "DRWL"
 		(at 581.66 441.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46394,7 +46646,6 @@
 	)
 	(label "A[0..19]"
 		(at 575.31 557.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46405,7 +46656,6 @@
 	)
 	(label "E"
 		(at 679.45 514.35 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46416,7 +46666,6 @@
 	)
 	(label "VPAL"
 		(at 684.53 513.08 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46427,7 +46676,6 @@
 	)
 	(label "A17"
 		(at 445.77 331.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46438,7 +46686,6 @@
 	)
 	(label "D6"
 		(at 552.45 511.81 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46449,7 +46696,6 @@
 	)
 	(label "IC24_DB.6"
 		(at 175.26 307.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46460,7 +46706,6 @@
 	)
 	(label "A8"
 		(at 692.15 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46471,7 +46716,6 @@
 	)
 	(label "DA2"
 		(at 882.65 383.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46482,7 +46726,6 @@
 	)
 	(label "A12"
 		(at 681.99 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46493,7 +46736,6 @@
 	)
 	(label "ROMOEL"
 		(at 702.31 513.08 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46504,7 +46746,6 @@
 	)
 	(label "RASL"
 		(at 741.68 323.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46515,7 +46756,6 @@
 	)
 	(label "A10"
 		(at 687.07 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46526,7 +46766,6 @@
 	)
 	(label "A5"
 		(at 462.28 300.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46537,7 +46776,6 @@
 	)
 	(label "CAS1L"
 		(at 995.68 322.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46548,7 +46786,6 @@
 	)
 	(label "DB1"
 		(at 1031.24 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46559,7 +46796,6 @@
 	)
 	(label "IC24_DB.5"
 		(at 175.26 304.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46570,7 +46806,6 @@
 	)
 	(label "IPL1"
 		(at 121.92 317.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46581,7 +46816,6 @@
 	)
 	(label "DA7"
 		(at 996.95 307.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46592,7 +46826,6 @@
 	)
 	(label "A13"
 		(at 542.29 363.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46603,7 +46836,6 @@
 	)
 	(label "RESETL"
 		(at 674.37 513.08 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46614,7 +46846,6 @@
 	)
 	(label "BERRL"
 		(at 388.62 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46625,7 +46856,6 @@
 	)
 	(label "DSMCL"
 		(at 304.8 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46636,7 +46866,6 @@
 	)
 	(label "DA3"
 		(at 694.69 386.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46647,7 +46876,6 @@
 	)
 	(label "A2"
 		(at 544.83 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46658,7 +46886,6 @@
 	)
 	(label "D4"
 		(at 542.29 421.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46669,7 +46896,6 @@
 	)
 	(label "D3"
 		(at 560.07 511.81 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46680,7 +46906,6 @@
 	)
 	(label "DB6"
 		(at 1031.24 318.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46691,7 +46916,6 @@
 	)
 	(label "VPAL"
 		(at 1108.71 332.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46702,7 +46926,6 @@
 	)
 	(label "DB4"
 		(at 1031.24 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46713,7 +46936,6 @@
 	)
 	(label "A0"
 		(at 542.29 297.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46724,7 +46946,6 @@
 	)
 	(label "A3"
 		(at 542.29 302.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46735,7 +46956,6 @@
 	)
 	(label "D3"
 		(at 542.29 424.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46746,7 +46966,6 @@
 	)
 	(label "WRL"
 		(at 647.7 414.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46757,7 +46976,6 @@
 	)
 	(label "DA3"
 		(at 835.66 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46768,7 +46986,6 @@
 	)
 	(label "A5"
 		(at 523.24 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46779,7 +46996,6 @@
 	)
 	(label "RASL"
 		(at 788.67 406.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46790,7 +47006,6 @@
 	)
 	(label "A1"
 		(at 542.29 304.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46801,7 +47016,6 @@
 	)
 	(label "DA2"
 		(at 741.68 383.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46812,7 +47026,6 @@
 	)
 	(label "DA3"
 		(at 882.65 386.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46823,7 +47036,6 @@
 	)
 	(label "DA0"
 		(at 835.66 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46834,7 +47046,6 @@
 	)
 	(label "RASL"
 		(at 647.7 406.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46845,7 +47056,6 @@
 	)
 	(label "DA3"
 		(at 835.66 386.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46856,7 +47066,6 @@
 	)
 	(label "A6"
 		(at 523.24 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46867,7 +47076,6 @@
 	)
 	(label "ROMOEL"
 		(at 581.66 444.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46878,7 +47086,6 @@
 	)
 	(label "A14"
 		(at 523.24 326.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46889,7 +47096,6 @@
 	)
 	(label "DB0"
 		(at 629.92 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46900,7 +47106,6 @@
 	)
 	(label "DA6"
 		(at 882.65 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46911,7 +47116,6 @@
 	)
 	(label "A1"
 		(at 704.85 504.19 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46922,7 +47126,6 @@
 	)
 	(label "A0"
 		(at 699.77 504.19 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46933,7 +47136,6 @@
 	)
 	(label "RESETL"
 		(at 386.08 369.57 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46944,7 +47146,6 @@
 	)
 	(label "D3"
 		(at 443.23 354.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46955,7 +47156,6 @@
 	)
 	(label "DA1"
 		(at 694.69 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46966,7 +47166,6 @@
 	)
 	(label "CAS1L"
 		(at 787.4 408.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46977,7 +47176,6 @@
 	)
 	(label "DB3"
 		(at 770.89 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46988,7 +47186,6 @@
 	)
 	(label "CAS1L"
 		(at 740.41 408.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46999,7 +47196,6 @@
 	)
 	(label "RASL"
 		(at 694.69 323.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47010,7 +47206,6 @@
 	)
 	(label "A11"
 		(at 539.75 504.19 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47021,7 +47216,6 @@
 	)
 	(label "DA4"
 		(at 996.95 299.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47032,7 +47226,6 @@
 	)
 	(label "VPAL"
 		(at 388.62 290.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47043,7 +47236,6 @@
 	)
 	(label "PCENL"
 		(at 1108.71 322.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47054,7 +47246,6 @@
 	)
 	(label "DA2"
 		(at 929.64 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47065,7 +47256,6 @@
 	)
 	(label "IC24_DB.6"
 		(at 157.48 374.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47076,7 +47266,6 @@
 	)
 	(label "A1"
 		(at 462.28 290.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47087,7 +47276,6 @@
 	)
 	(label "A9"
 		(at 445.77 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47098,7 +47286,6 @@
 	)
 	(label "CAS0L"
 		(at 881.38 326.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47109,7 +47296,6 @@
 	)
 	(label "A19"
 		(at 445.77 336.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47120,7 +47306,6 @@
 	)
 	(label "MOTOR2_ON"
 		(at 369.57 180.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47131,7 +47316,6 @@
 	)
 	(label "MDRWD"
 		(at 367.03 180.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47142,7 +47326,6 @@
 	)
 	(label "M2O{slash}MextI"
 		(at 543.56 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47153,7 +47336,6 @@
 	)
 	(label "DA5"
 		(at 581.66 360.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47164,7 +47346,6 @@
 	)
 	(label "A12"
 		(at 529.59 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47175,7 +47356,6 @@
 	)
 	(label "A2"
 		(at 707.39 504.19 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47186,7 +47366,6 @@
 	)
 	(label "DB2"
 		(at 723.9 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47197,7 +47376,6 @@
 	)
 	(label "RASL"
 		(at 835.66 323.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47208,7 +47386,6 @@
 	)
 	(label "DB[0..7]"
 		(at 659.13 354.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47219,7 +47396,6 @@
 	)
 	(label "DA3"
 		(at 788.67 386.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47230,7 +47406,6 @@
 	)
 	(label "IC24_DB.1"
 		(at 157.48 387.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47241,7 +47416,6 @@
 	)
 	(label "A6"
 		(at 542.29 320.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47252,7 +47426,6 @@
 	)
 	(label "Vin_MDV"
 		(at 346.71 237.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47263,7 +47436,6 @@
 	)
 	(label "DA0"
 		(at 788.67 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47274,7 +47446,6 @@
 	)
 	(label "D7"
 		(at 549.91 511.81 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47285,7 +47456,6 @@
 	)
 	(label "A14"
 		(at 529.59 504.19 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47296,7 +47466,6 @@
 	)
 	(label "DA1"
 		(at 694.69 381 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47307,7 +47476,6 @@
 	)
 	(label "DA2"
 		(at 581.66 309.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47318,7 +47486,6 @@
 	)
 	(label "DA[0..7]"
 		(at 657.86 364.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47329,7 +47496,6 @@
 	)
 	(label "DA1"
 		(at 600.71 381 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47340,7 +47506,6 @@
 	)
 	(label "DA5"
 		(at 929.64 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47351,7 +47516,6 @@
 	)
 	(label "DA7"
 		(at 741.68 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47362,7 +47526,6 @@
 	)
 	(label "D4"
 		(at 557.53 511.81 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47373,7 +47536,6 @@
 	)
 	(label "DA2"
 		(at 788.67 383.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47384,7 +47546,6 @@
 	)
 	(label "A3"
 		(at 445.77 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47395,7 +47556,6 @@
 	)
 	(label "D0"
 		(at 487.68 288.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47406,7 +47566,6 @@
 	)
 	(label "D3"
 		(at 648.97 544.83 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47417,7 +47576,6 @@
 	)
 	(label "MDSELDN"
 		(at 364.49 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47428,7 +47586,6 @@
 	)
 	(label "A12"
 		(at 445.77 318.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47439,7 +47596,6 @@
 	)
 	(label "DA0"
 		(at 647.7 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47450,7 +47606,6 @@
 	)
 	(label "~{ROW}"
 		(at 542.29 280.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47461,7 +47616,6 @@
 	)
 	(label "DB6"
 		(at 911.86 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47472,7 +47626,6 @@
 	)
 	(label "A2"
 		(at 445.77 293.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47483,7 +47636,6 @@
 	)
 	(label "A5"
 		(at 445.77 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47494,7 +47646,6 @@
 	)
 	(label "DA5"
 		(at 882.65 391.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47505,7 +47656,6 @@
 	)
 	(label "DA0"
 		(at 600.71 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47516,7 +47666,6 @@
 	)
 	(label "A15"
 		(at 671.83 504.19 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47527,7 +47676,6 @@
 	)
 	(label "DA2"
 		(at 882.65 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47538,7 +47686,6 @@
 	)
 	(label "A14"
 		(at 676.91 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47549,7 +47696,6 @@
 	)
 	(label "DA3"
 		(at 929.64 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47560,7 +47706,6 @@
 	)
 	(label "DA6"
 		(at 835.66 393.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47571,7 +47716,6 @@
 	)
 	(label "RASL"
 		(at 600.71 406.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47582,7 +47726,6 @@
 	)
 	(label "A16"
 		(at 991.87 270.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47593,7 +47736,6 @@
 	)
 	(label "D2"
 		(at 497.84 293.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47604,7 +47746,6 @@
 	)
 	(label "WRL"
 		(at 600.71 331.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47615,7 +47756,6 @@
 	)
 	(label "FC0"
 		(at 389.89 318.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47626,7 +47766,6 @@
 	)
 	(label "DA0"
 		(at 741.68 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47637,7 +47776,6 @@
 	)
 	(label "A12"
 		(at 462.28 318.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47648,7 +47786,6 @@
 	)
 	(label "DA6"
 		(at 600.71 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47659,7 +47796,6 @@
 	)
 	(label "PAL"
 		(at 1118.87 247.65 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47670,7 +47806,6 @@
 	)
 	(label "A8"
 		(at 534.67 504.19 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47681,7 +47816,6 @@
 	)
 	(label "Vin_MDV"
 		(at 553.72 207.01 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47692,7 +47826,6 @@
 	)
 	(label "D2"
 		(at 307.34 334.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47703,7 +47836,6 @@
 	)
 	(label "DB2"
 		(at 1031.24 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47714,7 +47846,6 @@
 	)
 	(label "A17"
 		(at 1070.61 322.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47725,7 +47856,6 @@
 	)
 	(label "VSYNC"
 		(at 1035.05 274.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47736,7 +47866,6 @@
 	)
 	(label "A1"
 		(at 311.15 321.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47747,7 +47876,6 @@
 	)
 	(label "DA2"
 		(at 647.7 383.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47758,7 +47886,6 @@
 	)
 	(label "DA0"
 		(at 694.69 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47769,7 +47896,6 @@
 	)
 	(label "VDA"
 		(at 991.87 278.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47780,7 +47906,6 @@
 	)
 	(label "A10"
 		(at 544.83 504.19 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47791,7 +47916,6 @@
 	)
 	(label "DA4"
 		(at 694.69 388.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47802,7 +47926,6 @@
 	)
 	(label "DA7"
 		(at 647.7 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47813,7 +47936,6 @@
 	)
 	(label "RAW2"
 		(at 551.18 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47824,7 +47946,6 @@
 	)
 	(label "DA7"
 		(at 581.66 375.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47835,7 +47956,6 @@
 	)
 	(label "MDRWD"
 		(at 346.71 234.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47846,7 +47966,6 @@
 	)
 	(label "DA4"
 		(at 741.68 388.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47857,7 +47976,6 @@
 	)
 	(label "D3"
 		(at 487.68 295.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47868,7 +47986,6 @@
 	)
 	(label "IC24_DB.3"
 		(at 157.48 382.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47879,7 +47996,6 @@
 	)
 	(label "A7"
 		(at 532.13 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47890,7 +48006,6 @@
 	)
 	(label "D4"
 		(at 651.51 544.83 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47901,7 +48016,6 @@
 	)
 	(label "DA5"
 		(at 647.7 391.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47912,7 +48026,6 @@
 	)
 	(label "DSMCL"
 		(at 991.87 275.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47923,7 +48036,6 @@
 	)
 	(label "A11"
 		(at 684.53 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47934,7 +48046,6 @@
 	)
 	(label "DA5"
 		(at 996.95 302.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47945,7 +48056,6 @@
 	)
 	(label "A[0..19]"
 		(at 574.04 497.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47956,7 +48066,6 @@
 	)
 	(label "DA4"
 		(at 581.66 353.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47967,7 +48076,6 @@
 	)
 	(label "DA0"
 		(at 996.95 289.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47978,7 +48086,6 @@
 	)
 	(label "A8"
 		(at 523.24 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47989,7 +48096,6 @@
 	)
 	(label "IC24_DB.0"
 		(at 175.26 292.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48000,7 +48106,6 @@
 	)
 	(label "CAS0L"
 		(at 693.42 326.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48011,7 +48116,6 @@
 	)
 	(label "RASL"
 		(at 647.7 323.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48022,7 +48126,6 @@
 	)
 	(label "DA1"
 		(at 647.7 381 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48033,7 +48136,6 @@
 	)
 	(label "VDA"
 		(at 542.29 278.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48044,7 +48146,6 @@
 	)
 	(label "DA2"
 		(at 835.66 383.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48055,7 +48156,6 @@
 	)
 	(label "A16"
 		(at 1070.61 320.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48066,7 +48166,6 @@
 	)
 	(label "A6"
 		(at 697.23 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48077,7 +48176,6 @@
 	)
 	(label "A4"
 		(at 523.24 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48088,7 +48186,6 @@
 	)
 	(label "+VIN1"
 		(at 412.75 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48099,7 +48196,6 @@
 	)
 	(label "DA5"
 		(at 741.68 391.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48110,7 +48206,6 @@
 	)
 	(label "CSYNC"
 		(at 676.91 511.81 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48121,7 +48216,6 @@
 	)
 	(label "D6"
 		(at 542.29 416.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48132,7 +48226,6 @@
 	)
 	(label "D1"
 		(at 497.84 290.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48143,7 +48236,6 @@
 	)
 	(label "A9"
 		(at 523.24 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48154,7 +48246,6 @@
 	)
 	(label "DA7"
 		(at 741.68 396.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48165,7 +48256,6 @@
 	)
 	(label "DB3"
 		(at 577.85 424.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48176,7 +48266,6 @@
 	)
 	(label "RASL"
 		(at 882.65 406.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48187,7 +48276,6 @@
 	)
 	(label "CAS1L"
 		(at 928.37 408.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48198,7 +48286,6 @@
 	)
 	(label "D4"
 		(at 307.34 339.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48209,7 +48296,6 @@
 	)
 	(label "DA5"
 		(at 600.71 391.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48220,7 +48306,6 @@
 	)
 	(label "DB5"
 		(at 577.85 419.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48231,7 +48316,6 @@
 	)
 	(label "DB2"
 		(at 723.9 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48242,7 +48326,6 @@
 	)
 	(label "DA1"
 		(at 929.64 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48253,7 +48336,6 @@
 	)
 	(label "DA5"
 		(at 647.7 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48264,7 +48346,6 @@
 	)
 	(label "DA1"
 		(at 929.64 381 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48275,7 +48356,6 @@
 	)
 	(label "RXD2"
 		(at 299.72 478.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48286,7 +48366,6 @@
 	)
 	(label "IC24_DB.7"
 		(at 157.48 372.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48297,7 +48376,6 @@
 	)
 	(label "DA4"
 		(at 600.71 388.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48308,7 +48386,6 @@
 	)
 	(label "DA0"
 		(at 581.66 294.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48319,7 +48396,6 @@
 	)
 	(label "DA6"
 		(at 788.67 393.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48330,7 +48406,6 @@
 	)
 	(label "WRL"
 		(at 971.55 345.44 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48341,7 +48416,6 @@
 	)
 	(label "DB0"
 		(at 577.85 431.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48352,7 +48426,6 @@
 	)
 	(label "DA3"
 		(at 741.68 386.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48363,7 +48436,6 @@
 	)
 	(label "A7"
 		(at 694.69 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48374,7 +48446,6 @@
 	)
 	(label "DA6"
 		(at 741.68 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48385,7 +48456,6 @@
 	)
 	(label "D1"
 		(at 542.29 429.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48396,7 +48466,6 @@
 	)
 	(label "WRL"
 		(at 835.66 414.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48407,7 +48476,6 @@
 	)
 	(label "RAW1"
 		(at 346.71 242.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48418,7 +48486,6 @@
 	)
 	(label "CAS0L"
 		(at 928.37 326.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48429,7 +48496,6 @@
 	)
 	(label "DA6"
 		(at 694.69 393.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48440,7 +48506,6 @@
 	)
 	(label "WRL"
 		(at 996.95 314.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48451,7 +48516,6 @@
 	)
 	(label "DRWL"
 		(at 392.43 364.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48462,7 +48526,6 @@
 	)
 	(label "D1"
 		(at 487.68 290.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48473,7 +48536,6 @@
 	)
 	(label "MDSELCK"
 		(at 369.57 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48484,7 +48546,6 @@
 	)
 	(label "CLK_CPU"
 		(at 671.83 549.91 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48495,7 +48556,6 @@
 	)
 	(label "A8"
 		(at 445.77 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48506,7 +48566,6 @@
 	)
 	(label "A0"
 		(at 445.77 288.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48517,7 +48576,6 @@
 	)
 	(label "CAS0L"
 		(at 995.68 320.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48528,7 +48586,6 @@
 	)
 	(label "D2"
 		(at 557.53 543.56 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48539,7 +48596,6 @@
 	)
 	(label "DA4"
 		(at 882.65 388.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48550,7 +48606,6 @@
 	)
 	(label "DRWL"
 		(at 661.67 509.27 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48561,7 +48616,6 @@
 	)
 	(label "DA6"
 		(at 741.68 393.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48572,7 +48626,6 @@
 	)
 	(label "DA4"
 		(at 647.7 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48583,7 +48636,6 @@
 	)
 	(label "A4"
 		(at 542.29 309.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48594,7 +48646,6 @@
 	)
 	(label "DA0"
 		(at 647.7 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48605,7 +48656,6 @@
 	)
 	(label "A15"
 		(at 523.24 331.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48616,7 +48666,6 @@
 	)
 	(label "A0"
 		(at 462.28 288.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48627,7 +48676,6 @@
 	)
 	(label "DB6"
 		(at 911.86 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48638,7 +48686,6 @@
 	)
 	(label "DA6"
 		(at 835.66 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48649,7 +48696,6 @@
 	)
 	(label "RED"
 		(at 1035.05 269.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48660,7 +48706,6 @@
 	)
 	(label "D6"
 		(at 656.59 544.83 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48671,7 +48716,6 @@
 	)
 	(label "A12"
 		(at 523.24 318.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48682,7 +48726,6 @@
 	)
 	(label "DA1"
 		(at 835.66 381 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48693,7 +48736,6 @@
 	)
 	(label "IC24_DB.4"
 		(at 157.48 379.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48704,7 +48746,6 @@
 	)
 	(label "A6"
 		(at 534.67 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48715,7 +48756,6 @@
 	)
 	(label "KILL_H"
 		(at 1108.71 335.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48726,7 +48766,6 @@
 	)
 	(label "DB3"
 		(at 1031.24 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48737,7 +48776,6 @@
 	)
 	(label "D1"
 		(at 307.34 331.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48748,7 +48786,6 @@
 	)
 	(label "FC2"
 		(at 389.89 323.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48759,7 +48796,6 @@
 	)
 	(label "DA0"
 		(at 929.64 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48770,7 +48806,6 @@
 	)
 	(label "DA2"
 		(at 929.64 383.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48781,7 +48816,6 @@
 	)
 	(label "DB1"
 		(at 577.85 429.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48792,7 +48826,6 @@
 	)
 	(label "M1O{slash}M2I"
 		(at 541.02 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48803,7 +48836,6 @@
 	)
 	(label "M1O{slash}M2I"
 		(at 367.03 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48814,7 +48846,6 @@
 	)
 	(label "DA7"
 		(at 694.69 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48825,7 +48856,6 @@
 	)
 	(label "WRL"
 		(at 741.68 414.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48836,7 +48866,6 @@
 	)
 	(label "Vin"
 		(at 271.78 229.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48847,7 +48876,6 @@
 	)
 	(label "A5"
 		(at 542.29 312.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48858,7 +48886,6 @@
 	)
 	(label "MDSELCK"
 		(at 546.1 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48869,7 +48896,6 @@
 	)
 	(label "OEC"
 		(at 1108.71 327.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48880,7 +48906,6 @@
 	)
 	(label "DA0"
 		(at 600.71 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48891,7 +48916,6 @@
 	)
 	(label "DA7"
 		(at 694.69 396.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48902,7 +48926,6 @@
 	)
 	(label "DSMCL"
 		(at 712.47 551.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48913,7 +48936,6 @@
 	)
 	(label "D7"
 		(at 307.34 346.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48924,7 +48946,6 @@
 	)
 	(label "DA7"
 		(at 882.65 396.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48935,7 +48956,6 @@
 	)
 	(label "A9"
 		(at 689.61 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48946,7 +48966,6 @@
 	)
 	(label "D6"
 		(at 487.68 303.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48957,7 +48976,6 @@
 	)
 	(label "FC2"
 		(at 692.15 509.27 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48968,7 +48986,6 @@
 	)
 	(label "MDRWD"
 		(at 543.56 180.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48979,7 +48996,6 @@
 	)
 	(label "A4"
 		(at 445.77 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48990,7 +49006,6 @@
 	)
 	(label "BG"
 		(at 666.75 514.35 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49001,7 +49016,6 @@
 	)
 	(label "D7"
 		(at 497.84 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49012,7 +49026,6 @@
 	)
 	(label "A13"
 		(at 523.24 321.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49023,7 +49036,6 @@
 	)
 	(label "A6"
 		(at 445.77 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49034,7 +49046,6 @@
 	)
 	(label "A10"
 		(at 523.24 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49045,7 +49056,6 @@
 	)
 	(label "DA5"
 		(at 835.66 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49056,7 +49066,6 @@
 	)
 	(label "D0"
 		(at 443.23 346.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49067,7 +49076,6 @@
 	)
 	(label "A17"
 		(at 542.29 273.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49078,7 +49086,6 @@
 	)
 	(label "DA1"
 		(at 581.66 302.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49089,7 +49096,6 @@
 	)
 	(label "KILL_H"
 		(at 353.06 326.39 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49100,7 +49106,6 @@
 	)
 	(label "GREEN"
 		(at 1035.05 266.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49111,7 +49116,6 @@
 	)
 	(label "A[0..19]"
 		(at 459.74 273.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49122,7 +49126,6 @@
 	)
 	(label "DA7"
 		(at 600.71 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49133,7 +49136,6 @@
 	)
 	(label "DA2"
 		(at 647.7 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49144,7 +49146,6 @@
 	)
 	(label "RASL"
 		(at 788.67 323.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49155,7 +49156,6 @@
 	)
 	(label "DA[0..7]"
 		(at 657.86 283.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49166,7 +49166,6 @@
 	)
 	(label "IC24_DB.2"
 		(at 157.48 384.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49177,7 +49176,6 @@
 	)
 	(label "D4"
 		(at 497.84 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49188,7 +49186,6 @@
 	)
 	(label "DA7"
 		(at 835.66 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49199,7 +49196,6 @@
 	)
 	(label "A18"
 		(at 445.77 334.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49210,7 +49206,6 @@
 	)
 	(label "A5"
 		(at 699.77 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49221,7 +49216,6 @@
 	)
 	(label "PCENL"
 		(at 304.8 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49232,7 +49226,6 @@
 	)
 	(label "AS"
 		(at 391.16 359.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49243,7 +49236,6 @@
 	)
 	(label "D1"
 		(at 554.99 543.56 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49254,7 +49246,6 @@
 	)
 	(label "Vin_MDV"
 		(at 377.19 207.01 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49265,7 +49256,6 @@
 	)
 	(label "RAW2"
 		(at 374.65 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49276,7 +49266,6 @@
 	)
 	(label "DB4"
 		(at 817.88 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49287,7 +49276,6 @@
 	)
 	(label "ROMOEL"
 		(at 542.29 514.35 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49298,7 +49286,6 @@
 	)
 	(label "A6"
 		(at 462.28 303.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49309,7 +49296,6 @@
 	)
 	(label "DB7"
 		(at 1031.24 321.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49320,7 +49306,6 @@
 	)
 	(label "IPL1"
 		(at 389.89 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49331,7 +49316,6 @@
 	)
 	(label "A6"
 		(at 1070.61 327.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49342,7 +49326,6 @@
 	)
 	(label "A13"
 		(at 532.13 504.19 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49353,7 +49336,6 @@
 	)
 	(label "DB5"
 		(at 1031.24 316.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49364,7 +49346,6 @@
 	)
 	(label "D6"
 		(at 497.84 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49375,7 +49356,6 @@
 	)
 	(label "RASL"
 		(at 835.66 406.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49386,7 +49366,6 @@
 	)
 	(label "ERASE"
 		(at 548.64 180.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49397,7 +49376,6 @@
 	)
 	(label "DA5"
 		(at 694.69 391.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49408,7 +49386,6 @@
 	)
 	(label "MOTOR1_ON"
 		(at 546.1 180.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49419,7 +49396,6 @@
 	)
 	(label "DTACKL"
 		(at 991.87 265.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49430,7 +49406,6 @@
 	)
 	(label "A10"
 		(at 445.77 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49441,7 +49416,6 @@
 	)
 	(label "D2"
 		(at 648.97 511.81 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49452,7 +49426,6 @@
 	)
 	(label "WRL"
 		(at 929.64 331.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49463,7 +49436,6 @@
 	)
 	(label "DA0"
 		(at 882.65 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49474,7 +49446,6 @@
 	)
 	(label "OEC"
 		(at 581.66 439.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49485,7 +49456,6 @@
 	)
 	(label "DB1"
 		(at 676.91 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49496,7 +49466,6 @@
 	)
 	(label "D5"
 		(at 497.84 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49507,7 +49476,6 @@
 	)
 	(label "A4"
 		(at 462.28 298.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49518,7 +49486,6 @@
 	)
 	(label "VSYNC"
 		(at 681.99 511.81 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49529,7 +49496,6 @@
 	)
 	(label "RED"
 		(at 674.37 547.37 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49540,7 +49506,6 @@
 	)
 	(label "IC24_DB.[0..7]"
 		(at 190.5 325.12 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49551,7 +49516,6 @@
 	)
 	(label "A10"
 		(at 542.29 368.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49562,7 +49526,6 @@
 	)
 	(label "A7"
 		(at 462.28 306.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49573,7 +49536,6 @@
 	)
 	(label "DA6"
 		(at 647.7 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49584,7 +49546,6 @@
 	)
 	(label "DA2"
 		(at 694.69 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49595,7 +49556,6 @@
 	)
 	(label "A1"
 		(at 523.24 290.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49606,7 +49566,6 @@
 	)
 	(label "IPL1"
 		(at 306.07 316.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49617,7 +49576,6 @@
 	)
 	(label "BLUE"
 		(at 1035.05 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49628,7 +49586,6 @@
 	)
 	(label "D5"
 		(at 542.29 419.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49639,7 +49596,6 @@
 	)
 	(label "D0"
 		(at 542.29 431.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49650,7 +49606,6 @@
 	)
 	(label "A1"
 		(at 445.77 290.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49661,7 +49616,6 @@
 	)
 	(label "TXD1"
 		(at 299.72 476.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49672,7 +49626,6 @@
 	)
 	(label "DA5"
 		(at 694.69 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49683,7 +49636,6 @@
 	)
 	(label "DA0"
 		(at 882.65 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49694,7 +49646,6 @@
 	)
 	(label "FC1"
 		(at 1070.61 317.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49705,7 +49656,6 @@
 	)
 	(label "IC24_DB.2"
 		(at 175.26 297.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49716,7 +49666,6 @@
 	)
 	(label "A0"
 		(at 523.24 288.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49727,7 +49676,6 @@
 	)
 	(label "A15"
 		(at 462.28 331.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49738,7 +49686,6 @@
 	)
 	(label "A5"
 		(at 537.21 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49749,7 +49696,6 @@
 	)
 	(label "DA3"
 		(at 600.71 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49760,7 +49706,6 @@
 	)
 	(label "WRL"
 		(at 600.71 414.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49771,7 +49716,6 @@
 	)
 	(label "DA7"
 		(at 600.71 396.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49782,7 +49726,6 @@
 	)
 	(label "DA6"
 		(at 882.65 393.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49793,7 +49736,6 @@
 	)
 	(label "D0"
 		(at 307.34 328.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49804,7 +49746,6 @@
 	)
 	(label "DA3"
 		(at 647.7 386.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49815,7 +49756,6 @@
 	)
 	(label "RXD2"
 		(at 1070.61 335.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49826,7 +49766,6 @@
 	)
 	(label "D7"
 		(at 542.29 414.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49837,7 +49776,6 @@
 	)
 	(label "A2"
 		(at 523.24 293.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49848,7 +49786,6 @@
 	)
 	(label "A16"
 		(at 669.29 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49859,7 +49796,6 @@
 	)
 	(label "DB7"
 		(at 958.85 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49870,7 +49806,6 @@
 	)
 	(label "A7"
 		(at 542.29 317.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49881,7 +49816,6 @@
 	)
 	(label "WRL"
 		(at 788.67 414.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49892,7 +49826,6 @@
 	)
 	(label "WRL"
 		(at 929.64 414.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49903,7 +49836,6 @@
 	)
 	(label "A19"
 		(at 661.67 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49914,7 +49846,6 @@
 	)
 	(label "CAS0L"
 		(at 740.41 326.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49925,7 +49856,6 @@
 	)
 	(label "A15"
 		(at 445.77 326.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49936,7 +49866,6 @@
 	)
 	(label "CAS1L"
 		(at 599.44 408.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49947,7 +49876,6 @@
 	)
 	(label "CAS0L"
 		(at 834.39 326.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49958,7 +49886,6 @@
 	)
 	(label "DA5"
 		(at 835.66 391.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49969,7 +49896,6 @@
 	)
 	(label "DA2"
 		(at 996.95 294.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49980,7 +49906,6 @@
 	)
 	(label "DA7"
 		(at 882.65 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49991,7 +49916,6 @@
 	)
 	(label "DA5"
 		(at 788.67 391.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50002,7 +49926,6 @@
 	)
 	(label "DA4"
 		(at 835.66 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50013,7 +49936,6 @@
 	)
 	(label "CAS1L"
 		(at 693.42 408.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50024,7 +49946,6 @@
 	)
 	(label "D[0..7]"
 		(at 492.76 330.2 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50035,7 +49956,6 @@
 	)
 	(label "TXOEL"
 		(at 1070.61 330.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50046,7 +49966,6 @@
 	)
 	(label "A3"
 		(at 523.24 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50057,7 +49976,6 @@
 	)
 	(label "BRL"
 		(at 669.29 514.35 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50068,7 +49986,6 @@
 	)
 	(label "WRL"
 		(at 741.68 331.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50079,7 +49996,6 @@
 	)
 	(label "E"
 		(at 388.62 334.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50090,7 +50006,6 @@
 	)
 	(label "DA4"
 		(at 647.7 388.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50101,7 +50016,6 @@
 	)
 	(label "DA7"
 		(at 788.67 396.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50112,7 +50026,6 @@
 	)
 	(label "FC1"
 		(at 389.89 321.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50123,7 +50036,6 @@
 	)
 	(label "D5"
 		(at 554.99 511.81 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50134,7 +50046,6 @@
 	)
 	(label "DA4"
 		(at 882.65 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50145,7 +50056,6 @@
 	)
 	(label "DA6"
 		(at 694.69 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50156,7 +50066,6 @@
 	)
 	(label "DB1"
 		(at 676.91 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50167,7 +50076,6 @@
 	)
 	(label "DA6"
 		(at 788.67 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50178,7 +50086,6 @@
 	)
 	(label "DA4"
 		(at 835.66 388.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50189,7 +50096,6 @@
 	)
 	(label "A12"
 		(at 542.29 355.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50200,7 +50106,6 @@
 	)
 	(label "DA1"
 		(at 647.7 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50211,7 +50116,6 @@
 	)
 	(label "DB[0..7]"
 		(at 657.86 436.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50222,7 +50126,6 @@
 	)
 	(label "DA0"
 		(at 929.64 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50233,7 +50136,6 @@
 	)
 	(label "DA6"
 		(at 647.7 393.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50244,7 +50146,6 @@
 	)
 	(label "WRL"
 		(at 882.65 414.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50255,7 +50156,6 @@
 	)
 	(label "D5"
 		(at 443.23 359.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50266,7 +50166,6 @@
 	)
 	(label "FC0"
 		(at 1070.61 337.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50277,7 +50176,6 @@
 	)
 	(label "BG"
 		(at 388.62 328.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50288,7 +50186,6 @@
 	)
 	(label "D0"
 		(at 552.45 543.56 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50299,7 +50196,6 @@
 	)
 	(label "D7"
 		(at 659.13 544.83 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50310,7 +50206,6 @@
 	)
 	(label "~{ROW}"
 		(at 991.87 280.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50321,7 +50216,6 @@
 	)
 	(label "DA5"
 		(at 882.65 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50332,7 +50226,6 @@
 	)
 	(label "D2"
 		(at 443.23 351.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50343,7 +50236,6 @@
 	)
 	(label "WRL"
 		(at 647.7 331.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50354,7 +50246,6 @@
 	)
 	(label "DTACKL"
 		(at 387.35 281.94 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50365,7 +50256,6 @@
 	)
 	(label "DA5"
 		(at 788.67 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50376,7 +50266,6 @@
 	)
 	(label "A3"
 		(at 542.29 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50387,7 +50276,6 @@
 	)
 	(label "D1"
 		(at 443.23 349.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50398,7 +50286,6 @@
 	)
 	(label "DB6"
 		(at 577.85 416.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50409,7 +50296,6 @@
 	)
 	(label "A11"
 		(at 523.24 316.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50420,7 +50306,6 @@
 	)
 	(label "BERRL"
 		(at 715.01 514.35 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50431,7 +50316,6 @@
 	)
 	(label "DA6"
 		(at 996.95 304.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50442,7 +50326,6 @@
 	)
 	(label "RASL"
 		(at 996.95 317.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50453,7 +50336,6 @@
 	)
 	(label "DA7"
 		(at 647.7 396.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50464,7 +50346,6 @@
 	)
 	(label "RAW1"
 		(at 372.11 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50475,7 +50356,6 @@
 	)
 	(label "DA5"
 		(at 929.64 391.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50486,7 +50366,6 @@
 	)
 	(label "NN2"
 		(at 99.06 458.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50497,7 +50376,6 @@
 	)
 	(label "A2"
 		(at 542.29 294.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50508,7 +50386,6 @@
 	)
 	(label "DB5"
 		(at 864.87 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50519,7 +50396,6 @@
 	)
 	(label "CLK_CPU"
 		(at 262.89 339.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50530,7 +50406,6 @@
 	)
 	(label "D3"
 		(at 307.34 336.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50541,7 +50416,6 @@
 	)
 	(label "DA4"
 		(at 600.71 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50552,7 +50426,6 @@
 	)
 	(label "DB0"
 		(at 1031.24 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50563,7 +50436,6 @@
 	)
 	(label "D7"
 		(at 487.68 306.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50574,7 +50446,6 @@
 	)
 	(label "DA4"
 		(at 741.68 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50585,7 +50456,6 @@
 	)
 	(label "A16"
 		(at 542.29 270.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50596,7 +50466,6 @@
 	)
 	(label "D[0..7]"
 		(at 575.31 549.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50607,7 +50476,6 @@
 	)
 	(label "IPL1"
 		(at 717.55 514.35 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50618,7 +50486,6 @@
 	)
 	(label "IC24_DB.0"
 		(at 157.48 389.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50629,7 +50496,6 @@
 	)
 	(label "DA5"
 		(at 741.68 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50640,7 +50506,6 @@
 	)
 	(label "A18"
 		(at 664.21 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50651,7 +50516,6 @@
 	)
 	(label "DB3"
 		(at 770.89 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50662,7 +50526,6 @@
 	)
 	(label "A13"
 		(at 445.77 321.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50673,7 +50536,6 @@
 	)
 	(label "DA0"
 		(at 694.69 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50684,7 +50546,6 @@
 	)
 	(label "CSYNC"
 		(at 1035.05 271.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50695,7 +50556,6 @@
 	)
 	(label "RAW2"
 		(at 346.71 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50706,7 +50566,6 @@
 	)
 	(label "DA7"
 		(at 929.64 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50717,7 +50576,6 @@
 	)
 	(label "DA1"
 		(at 788.67 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50728,7 +50586,6 @@
 	)
 	(label "MDSELDN"
 		(at 346.71 247.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50739,7 +50596,6 @@
 	)
 	(label "IC24_DB.7"
 		(at 175.26 309.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50750,7 +50606,6 @@
 	)
 	(label "CAS0L"
 		(at 646.43 326.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50761,7 +50616,6 @@
 	)
 	(label "DA3"
 		(at 788.67 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50772,7 +50626,6 @@
 	)
 	(label "IPL2{slash}0"
 		(at 712.47 514.35 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50783,7 +50636,6 @@
 	)
 	(label "IPL2{slash}0"
 		(at 388.62 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50794,7 +50646,6 @@
 	)
 	(label "DB7"
 		(at 577.85 414.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50805,7 +50656,6 @@
 	)
 	(label "DA5"
 		(at 600.71 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50816,7 +50666,6 @@
 	)
 	(label "DA6"
 		(at 929.64 393.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50827,7 +50676,6 @@
 	)
 	(label "DA3"
 		(at 996.95 297.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50838,7 +50686,6 @@
 	)
 	(label "A8"
 		(at 542.29 353.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50849,7 +50696,6 @@
 	)
 	(label "CLK_CPU"
 		(at 991.87 267.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50860,7 +50706,6 @@
 	)
 	(label "DB4"
 		(at 817.88 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50871,7 +50716,6 @@
 	)
 	(label "D5"
 		(at 654.05 544.83 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50882,7 +50726,6 @@
 	)
 	(label "D[0..7]"
 		(at 574.04 506.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50893,7 +50736,6 @@
 	)
 	(label "DA4"
 		(at 788.67 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50904,7 +50746,6 @@
 	)
 	(label "DB7"
 		(at 958.85 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50915,7 +50756,6 @@
 	)
 	(label "IC24_DB.1"
 		(at 175.26 294.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50926,7 +50766,6 @@
 	)
 	(label "DA1"
 		(at 741.68 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50937,7 +50776,6 @@
 	)
 	(label "DA0"
 		(at 835.66 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50948,7 +50786,6 @@
 	)
 	(label "AS"
 		(at 656.59 514.35 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50959,7 +50796,6 @@
 	)
 	(label "D7"
 		(at 443.23 364.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50970,7 +50806,6 @@
 	)
 	(label "DA0"
 		(at 741.68 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50981,7 +50816,6 @@
 	)
 	(label "RASL"
 		(at 929.64 406.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50992,7 +50826,6 @@
 	)
 	(label "D6"
 		(at 307.34 344.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51003,7 +50836,6 @@
 	)
 	(label "A5"
 		(at 311.15 323.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51014,7 +50846,6 @@
 	)
 	(label "A3"
 		(at 704.85 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51025,7 +50856,6 @@
 	)
 	(label "ERASE"
 		(at 372.11 180.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51036,7 +50866,6 @@
 	)
 	(label "MDSELCK"
 		(at 346.71 245.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51047,7 +50876,6 @@
 	)
 	(label "D5"
 		(at 307.34 341.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51058,7 +50886,6 @@
 	)
 	(label "DS"
 		(at 388.62 361.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51069,7 +50896,6 @@
 	)
 	(label "DB0"
 		(at 629.92 378.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51080,7 +50906,6 @@
 	)
 	(label "DA1"
 		(at 882.65 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51091,7 +50916,6 @@
 	)
 	(label "CAS1L"
 		(at 881.38 408.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51102,7 +50926,6 @@
 	)
 	(label "A3"
 		(at 462.28 295.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51113,7 +50936,6 @@
 	)
 	(label "FC0"
 		(at 697.23 509.27 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51124,7 +50946,6 @@
 	)
 	(label "DA6"
 		(at 581.66 368.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51135,7 +50956,6 @@
 	)
 	(label "DTACKL"
 		(at 664.21 514.35 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51146,7 +50966,6 @@
 	)
 	(label "IC24_DB.3"
 		(at 175.26 299.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51157,7 +50976,6 @@
 	)
 	(label "A14"
 		(at 445.77 323.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51168,7 +50986,6 @@
 	)
 	(label "+VIN2"
 		(at 588.01 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51179,7 +50996,6 @@
 	)
 	(label "DA2"
 		(at 788.67 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51190,7 +51006,6 @@
 	)
 	(label "DA4"
 		(at 694.69 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51201,7 +51016,6 @@
 	)
 	(label "DA6"
 		(at 929.64 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51212,7 +51026,6 @@
 	)
 	(label "RASL"
 		(at 600.71 323.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51223,7 +51036,6 @@
 	)
 	(label "A9"
 		(at 542.29 360.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51234,7 +51046,6 @@
 	)
 	(label "DA2"
 		(at 600.71 383.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51245,7 +51056,6 @@
 	)
 	(label "RASL"
 		(at 929.64 323.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51256,7 +51066,6 @@
 	)
 	(label "D5"
 		(at 487.68 300.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51267,7 +51076,6 @@
 	)
 	(label "DA2"
 		(at 600.71 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51278,7 +51086,6 @@
 	)
 	(label "D6"
 		(at 443.23 361.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51289,7 +51096,6 @@
 	)
 	(label "A13"
 		(at 679.45 551.18 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51300,7 +51106,6 @@
 	)
 	(label "DA1"
 		(at 788.67 381 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51311,7 +51116,6 @@
 	)
 	(label "IPC_INTL"
 		(at 132.08 354.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51322,7 +51126,6 @@
 	)
 	(label "DTACKL"
 		(at 1108.71 317.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51333,7 +51136,6 @@
 	)
 	(label "DA3"
 		(at 882.65 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51344,7 +51146,6 @@
 	)
 	(label "IC24_DB.4"
 		(at 175.26 302.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51355,7 +51156,6 @@
 	)
 	(label "A8"
 		(at 462.28 308.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51366,7 +51166,6 @@
 	)
 	(label "A11"
 		(at 542.29 375.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52045,6 +51844,92 @@
 			(project "QL_schematic"
 				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 1045.21 255.27 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03983eda-e2ce-4123-b956-6e63c150ec4a")
+		(property "Reference" "D18"
+			(at 1046.734 251.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V1"
+			(at 1046.734 258.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp"
+			(at 1045.21 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1045.21 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 1045.21 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 1045.21 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 1045.21 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e48ade7-600a-4ba2-bffd-395ff0120a1f")
+		)
+		(pin "2"
+			(uuid "a7cfbbde-783e-49c2-be86-3639c85d1d08")
+		)
+		(instances
+			(project "Issue_7ALEA"
+				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -54998,6 +54883,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 1060.45 255.27 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "182049ad-16be-4771-9480-c1e6a18b095c")
+		(property "Reference" "D31"
+			(at 1061.974 251.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V1"
+			(at 1061.974 258.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp"
+			(at 1060.45 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1060.45 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 1060.45 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 1060.45 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 1060.45 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf1c7648-bf99-462f-a96d-ebe42c0b8f87")
+		)
+		(pin "2"
+			(uuid "189874d7-e847-4e7d-b8f9-85aa3a4a29e7")
+		)
+		(instances
+			(project "Issue_7ALEA"
+				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 101.6 396.24 180)
 		(unit 1)
@@ -55719,16 +55690,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 584.2 238.76 270)
+		(at 584.2 240.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "1bfeab6b-a7b8-4910-85f4-fcd7367c3908")
 		(property "Reference" "R108"
-			(at 584.2 243.078 90)
+			(at 584.2 244.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55736,7 +55707,7 @@
 			)
 		)
 		(property "Value" "33K"
-			(at 584.2 245.618 90)
+			(at 584.2 246.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55744,7 +55715,7 @@
 			)
 		)
 		(property "Footprint" "8bits:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.7mm_Horizontal_W"
-			(at 584.2 240.538 90)
+			(at 584.2 241.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55753,7 +55724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 584.2 238.76 0)
+			(at 584.2 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55762,7 +55733,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 584.2 238.76 0)
+			(at 584.2 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58132,6 +58103,72 @@
 			(project "QL_schematic"
 				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 1038.86 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d932566-48a5-4727-9c0a-2214116aafb1")
+		(property "Reference" "#PWR0156"
+			(at 1038.86 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1038.86 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1038.86 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1038.86 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 1038.86 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e066b9ef-5319-472c-ba2a-0c06cab7737e")
+		)
+		(instances
+			(project "Issue_7ALEA"
+				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -63342,6 +63379,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 1052.83 255.27 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57a2704d-9c5f-4aa1-914c-b6a9d1c09d37")
+		(property "Reference" "D24"
+			(at 1054.354 251.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V1"
+			(at 1054.354 258.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp"
+			(at 1052.83 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1052.83 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 1052.83 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 1052.83 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 1052.83 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ceafe93-9e5c-4fad-b45f-60e9a32023fb")
+		)
+		(pin "2"
+			(uuid "153f832b-e828-4c71-9e21-32e55fc7e02a")
+		)
+		(instances
+			(project "Issue_7ALEA"
+				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 464.82 81.28 180)
 		(unit 1)
@@ -65293,6 +65416,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 1056.64 255.27 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a3dae2d-c9e4-4257-a6d1-cccba45b3cec")
+		(property "Reference" "D30"
+			(at 1058.164 251.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V1"
+			(at 1058.164 258.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp"
+			(at 1056.64 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1056.64 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 1056.64 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 1056.64 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 1056.64 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5c621c3-034a-4a45-a115-aa6750931f26")
+		)
+		(pin "2"
+			(uuid "e14ec1c4-f26e-4ded-ad11-497cd8431475")
+		)
+		(instances
+			(project "Issue_7ALEA"
+				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x07_Top_Bottom")
 		(at 372.11 189.23 90)
 		(unit 1)
@@ -66315,6 +66524,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 1049.02 255.27 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7080582c-8b58-47e9-a4b0-bf2bac34635b")
+		(property "Reference" "D19"
+			(at 1050.544 251.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V1"
+			(at 1050.544 258.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp"
+			(at 1049.02 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1049.02 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 1049.02 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 1049.02 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 1049.02 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7543bd49-9697-4de3-80c0-219761a037a7")
+		)
+		(pin "2"
+			(uuid "3730ddfc-a0ba-4225-b288-80c4aa06de57")
+		)
+		(instances
+			(project "Issue_7ALEA"
+				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 350.52 561.34 0)
 		(unit 1)
@@ -66711,75 +67006,6 @@
 			(project "QL_schematic"
 				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 311.15 288.29 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72602565-15a2-493a-9a5e-315bd5b0926c")
-		(property "Reference" "R102"
-			(at 311.15 281.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 311.15 284.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "8bits:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.7mm_Horizontal_W"
-			(at 311.15 286.512 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 311.15 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 311.15 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a9332a68-7ba0-4361-81e3-11a676fa662a")
-		)
-		(pin "1"
-			(uuid "da5a75cd-4d77-4bb7-ad01-e7fa62679e8c")
-		)
-		(instances
-			(project "QL_schematic"
-				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
-					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -67979,7 +68205,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 589.28 242.57 180)
+		(at 589.28 243.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -67988,7 +68214,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c581077-d986-4da8-8611-2c564795fffb")
 		(property "Reference" "#PWR070"
-			(at 589.28 238.76 0)
+			(at 589.28 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67997,7 +68223,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 589.28 247.65 0)
+			(at 589.28 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68005,7 +68231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 589.28 242.57 0)
+			(at 589.28 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68014,7 +68240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 589.28 242.57 0)
+			(at 589.28 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68023,7 +68249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 589.28 242.57 0)
+			(at 589.28 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69534,16 +69760,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 576.58 241.3 270)
+		(at 576.58 242.57 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "8777816b-e082-4cfa-b1af-79c706295f19")
 		(property "Reference" "R107"
-			(at 576.58 244.094 90)
+			(at 576.58 245.364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69551,7 +69777,7 @@
 			)
 		)
 		(property "Value" "33K"
-			(at 576.58 246.634 90)
+			(at 576.58 247.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69559,7 +69785,7 @@
 			)
 		)
 		(property "Footprint" "8bits:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.7mm_Horizontal_W"
-			(at 576.58 243.078 90)
+			(at 576.58 244.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69568,7 +69794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 576.58 241.3 0)
+			(at 576.58 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69577,7 +69803,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 576.58 241.3 0)
+			(at 576.58 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79634,75 +79860,6 @@
 			(project "QL_schematic"
 				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
 					(reference "DC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 317.5 290.83 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1db02d4-ba54-4937-bf5d-93d854cd15e5")
-		(property "Reference" "R103"
-			(at 317.5 284.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 317.5 287.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "8bits:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.7mm_Horizontal_W"
-			(at 317.5 289.052 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 317.5 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 317.5 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4abf5e32-e3e8-4d32-968a-09d397645a04")
-		)
-		(pin "1"
-			(uuid "140c188b-3009-4773-80ca-a7dcf8248371")
-		)
-		(instances
-			(project "QL_schematic"
-				(path "/d9bf0336-77ec-432e-8be5-ef01ab52074a"
-					(reference "R103")
 					(unit 1)
 				)
 			)
