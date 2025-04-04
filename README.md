@@ -19,7 +19,6 @@ This folder contain the schematic of the original Issue 6 of sinclair QL, from p
 - NOT TESTED
 
 ### TODO
-- Verify Dimensions
 - Minor silkscreen details
 - normalice size of vias
 
